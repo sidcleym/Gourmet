@@ -1,0 +1,2 @@
+D:\Estudo\Gourmet\BackEnd\Gourmet.Services\obj\Debug\Gourmet.Services.csprojResolveAssemblyReference.cache
+D:\Estudo\Gourmet\BackEnd\Gourmet.Services\obj\Debug\Gourmet.Services.csproj.CoreCompileInputs.cache

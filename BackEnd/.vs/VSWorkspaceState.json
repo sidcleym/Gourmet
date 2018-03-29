@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Gourmet.ApplicationServices",
+    "\\Gourmet.ApplicationServices\\EscopoValidacao",
+    "\\Gourmet.ApplicationServices\\Services",
+    "\\Gourmet.Domain",
+    "\\Gourmet.Persistence",
+    "\\Gourmet.Shared",
+    "\\Gourmet.Tests",
+    "\\Gourmet.Tests\\Testes"
+  ],
+  "SelectedNode": "\\Gourmet.Tests\\Testes\\RestauranteTeste.cs",
+  "PreviewInSolutionExplorer": false
+}
