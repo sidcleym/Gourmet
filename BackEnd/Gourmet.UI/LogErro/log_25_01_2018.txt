@@ -1,0 +1,34 @@
+ 
+Data Hora: 25/01/2018 15:12:29
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/?$orderby=logAtualizacao%20desc&$top=15&$skip=0&$select=id,tituloTipo,tituloStatus,tituloNumero,tituloLancamento,tituloValorTotal,tituloValorPagar,quitacaoAtraso,quitacaoValorDesconto,logCriacao,logAtualizacao,logPctUsuarioId&$expand=intCliente,finMeiopagamento,finConta,rateios
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.Get(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 594
+
+--------------------------------------------
+ 
+Data Hora: 25/01/2018 15:42:55
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 50
+
+--------------------------------------------

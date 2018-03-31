@@ -1,0 +1,1001 @@
+ 
+Data Hora: 9/03/2018 14:56:53
+Rotina:    NFe.Classes.Informacoes.Identificacao.ide MontaIdentificacao(Faturamento.Dominio.Modelo.Documentosaida, Integracao.Dominio.Modelo.Empresa, Integracao.Dominio.Modelo.Cidade, Integracao.Dominio.Modelo.Cliente, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs
+Linha:     178
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.NFeService.MontaIdentificacao(Documentosaida pDocumento, Empresa pEmpresa, Cidade pCidadeEmitente, Cliente pCliente, String modelo) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 178
+   em Faturamento.ApplicationService.Service.NFeService.Transmitir(Empresa pEmpresa, Cliente pCliente, Documentosaida pDocumento, Int64 numeroLote, Boolean pOffLine, DadosTerminal dadosTerminal) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 631
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.TransmitirDocumento(Documentosaida pDocumento, Boolean pOffline, String pJustificativa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2694
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1153
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 14:57:14
+Rotina:    NFe.Classes.Informacoes.Identificacao.ide MontaIdentificacao(Faturamento.Dominio.Modelo.Documentosaida, Integracao.Dominio.Modelo.Empresa, Integracao.Dominio.Modelo.Cidade, Integracao.Dominio.Modelo.Cliente, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs
+Linha:     178
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.NFeService.MontaIdentificacao(Documentosaida pDocumento, Empresa pEmpresa, Cidade pCidadeEmitente, Cliente pCliente, String modelo) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 178
+   em Faturamento.ApplicationService.Service.NFeService.Transmitir(Empresa pEmpresa, Cliente pCliente, Documentosaida pDocumento, Int64 numeroLote, Boolean pOffLine, DadosTerminal dadosTerminal) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 631
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.TransmitirDocumento(Documentosaida pDocumento, Boolean pOffline, String pJustificativa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2694
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1153
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 14:59:34
+Rotina:    NFe.Classes.Informacoes.Identificacao.ide MontaIdentificacao(Faturamento.Dominio.Modelo.Documentosaida, Integracao.Dominio.Modelo.Empresa, Integracao.Dominio.Modelo.Cidade, Integracao.Dominio.Modelo.Cliente, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs
+Linha:     178
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.NFeService.MontaIdentificacao(Documentosaida pDocumento, Empresa pEmpresa, Cidade pCidadeEmitente, Cliente pCliente, String modelo) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 178
+   em Faturamento.ApplicationService.Service.NFeService.Transmitir(Empresa pEmpresa, Cliente pCliente, Documentosaida pDocumento, Int64 numeroLote, Boolean pOffLine, DadosTerminal dadosTerminal) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 631
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.TransmitirDocumento(Documentosaida pDocumento, Boolean pOffline, String pJustificativa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2694
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1153
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 15:14:51
+Rotina:    NFe.Classes.Informacoes.Identificacao.ide MontaIdentificacao(Faturamento.Dominio.Modelo.Documentosaida, Integracao.Dominio.Modelo.Empresa, Integracao.Dominio.Modelo.Cidade, Integracao.Dominio.Modelo.Cliente, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs
+Linha:     178
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.NFeService.MontaIdentificacao(Documentosaida pDocumento, Empresa pEmpresa, Cidade pCidadeEmitente, Cliente pCliente, String modelo) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 178
+   em Faturamento.ApplicationService.Service.NFeService.Transmitir(Empresa pEmpresa, Cliente pCliente, Documentosaida pDocumento, Int64 numeroLote, Boolean pOffLine, DadosTerminal dadosTerminal) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 631
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.TransmitirDocumento(Documentosaida pDocumento, Boolean pOffline, String pJustificativa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2695
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1154
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 15:16:7
+Rotina:    NFe.Classes.Informacoes.Identificacao.ide MontaIdentificacao(Faturamento.Dominio.Modelo.Documentosaida, Integracao.Dominio.Modelo.Empresa, Integracao.Dominio.Modelo.Cidade, Integracao.Dominio.Modelo.Cliente, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs
+Linha:     178
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.NFeService.MontaIdentificacao(Documentosaida pDocumento, Empresa pEmpresa, Cidade pCidadeEmitente, Cliente pCliente, String modelo) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 178
+   em Faturamento.ApplicationService.Service.NFeService.Transmitir(Empresa pEmpresa, Cliente pCliente, Documentosaida pDocumento, Int64 numeroLote, Boolean pOffLine, DadosTerminal dadosTerminal) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 631
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.TransmitirDocumento(Documentosaida pDocumento, Boolean pOffline, String pJustificativa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2695
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1154
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 15:29:54
+Rotina:    Boolean ValidaItens(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.DocumentosaidaItem)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Escopos\DocumentosaidaEscopo.cs
+Linha:     186
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Escopos.DocumentosaidaEscopo.ValidaItens(Empresa pEmpresa, DocumentosaidaItem item) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Escopos\DocumentosaidaEscopo.cs:linha 186
+   em Faturamento.ApplicationService.Service.NFeService.Transmitir(Empresa pEmpresa, Cliente pCliente, Documentosaida pDocumento, Int64 numeroLote, Boolean pOffLine, DadosTerminal dadosTerminal) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 617
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.TransmitirDocumento(Documentosaida pDocumento, Boolean pOffline, String pJustificativa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2697
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1156
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 15:30:4
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 15:31:11
+Rotina:    Boolean ValidaItens(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.DocumentosaidaItem)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Escopos\DocumentosaidaEscopo.cs
+Linha:     186
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Escopos.DocumentosaidaEscopo.ValidaItens(Empresa pEmpresa, DocumentosaidaItem item) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Escopos\DocumentosaidaEscopo.cs:linha 186
+   em Faturamento.ApplicationService.Service.NFeService.Transmitir(Empresa pEmpresa, Cliente pCliente, Documentosaida pDocumento, Int64 numeroLote, Boolean pOffLine, DadosTerminal dadosTerminal) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 617
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.TransmitirDocumento(Documentosaida pDocumento, Boolean pOffline, String pJustificativa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2697
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1156
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 15:31:23
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 15:59:0
+Rotina:    DocumentosFiscais.NFE_NFCE.Modelos.RetornoTransmissaoNFe GerarXmlETransmitir(Int64)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\DocumentosFiscais\NFE_NFCE\NFeTransmissaoService.cs
+Linha:     403
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Erros na validação:
+ O elemento 'http://www.portalfiscal.inf.br/nfe:CFOP' é inválido - O valor '0' é inválido dependendo do tipo de dados 'String' - Falha na restrição Pattern.
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em DocumentosFiscais.NFE_NFCE.NFeTransmissaoService.GerarXmlETransmitir(Int64 numeroLote) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\DocumentosFiscais\NFE_NFCE\NFeTransmissaoService.cs:linha 403
+   em Faturamento.ApplicationService.Service.NFeService.Transmitir(Empresa pEmpresa, Cliente pCliente, Documentosaida pDocumento, Int64 numeroLote, Boolean pOffLine, DadosTerminal dadosTerminal) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 687
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.TransmitirDocumento(Documentosaida pDocumento, Boolean pOffline, String pJustificativa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2713
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1156
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 16:17:51
+Rotina:    Void ValidateNotDetachedAndInitializeRelatedEnd(System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    Member 'CurrentValues' cannot be called for the entity of type 'Documentosaida' because the entity does not exist in the context. To add an entity to the context call the Add or Attach method of DbSet<Documentosaida>.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.InternalEntityEntry.ValidateNotDetachedAndInitializeRelatedEnd(String method)
+   em System.Data.Entity.Internal.InternalEntityEntry.ValidateStateToGetValues(String method, EntityState invalidState)
+   em System.Data.Entity.Internal.InternalEntityEntry.get_CurrentValues()
+   em System.Data.Entity.Infrastructure.DbEntityEntry`1.get_CurrentValues()
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.TransmitirDocumento(Documentosaida pDocumento, Boolean pOffline, String pJustificativa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2728
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1156
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 21:52:16
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Nome de coluna 'anp' inválido.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__2[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.FindInStore(WrappedEntityKey key, String keyValuesParamName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   em System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   em Infra.Repositorio.RepositorioBase`1.Get(Object id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Conexao\Infra\Repositorio\RepositorioBase.cs:linha 25
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvarItensInsercao(DocumentosaidaView entidadePostado, DocumentosaidaView entidade, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 596
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1042
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 21:54:41
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 147
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 21:56:45
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Nome de coluna 'anp' inválido.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__2[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.FindInStore(WrappedEntityKey key, String keyValuesParamName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   em System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   em Infra.Repositorio.RepositorioBase`1.Get(Object id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Conexao\Infra\Repositorio\RepositorioBase.cs:linha 25
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvarItensInsercao(DocumentosaidaView entidadePostado, DocumentosaidaView entidade, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 596
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1042
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 22:23:11
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 147
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 22:24:59
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Nome de coluna 'anp' inválido.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__2[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.FindInStore(WrappedEntityKey key, String keyValuesParamName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   em System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   em Infra.Repositorio.RepositorioBase`1.Get(Object id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Conexao\Infra\Repositorio\RepositorioBase.cs:linha 25
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvarItensInsercao(DocumentosaidaView entidadePostado, DocumentosaidaView entidade, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 596
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1042
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 22:29:50
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 147
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 22:30:51
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 147
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 22:31:42
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 147
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 22:35:30
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 147
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:39:36
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:40:7
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:41:22
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:42:56
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:43:27
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:45:23
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:45:54
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:48:11
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:48:42
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:49:17
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:49:48
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:52:25
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:52:56
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:55:38
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:56:9
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:57:48
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------
+ 
+Data Hora: 9/03/2018 23:58:19
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 99
+
+--------------------------------------------

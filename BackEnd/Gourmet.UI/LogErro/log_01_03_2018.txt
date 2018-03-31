@@ -1,0 +1,798 @@
+ 
+Data Hora: 1/03/2018 0:8:51
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:9:10
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:9:30
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:9:51
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:10:10
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:10:30
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:10:50
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:11:10
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:11:36
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:11:57
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:12:10
+Rotina:    PainelControle.Dominio.Modelo.Parametro Get[T](System.String, System.Nullable`1[System.Int32])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    O Parâmetro 'PF012' está configurado de forma incorreta.Cliente Cód: não foi encontrado
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\ParametroService.cs:linha 107
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GetClientePF012(DocumentosaidaView pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1865
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvaCabecalho(DocumentosaidaView entidade, DocumentosaidaView entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 976
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1021
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:35:29
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:35:49
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:36:9
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:36:29
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:36:49
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:37:9
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:37:29
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:37:49
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:38:9
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:38:29
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 0:38:49
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 8:52:14
+Rotina:    System.Collections.Generic.IList`1[Financeiro.Dominio.Views.ParcelaTituloView] CalculaParcelas(Financeiro.Dominio.Views.CalculoParcelasView)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/calculaparcelas
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs
+Linha:     1890
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Financeiro.ApplicationService.Service.ContasareceberService.CalculaParcelas(CalculoParcelasView CalculoParcelas) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1890
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.CalculaParcelas(HttpRequestMessage request, CalculoParcelasView parcelamento) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 1114
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 8:52:31
+Rotina:    System.Collections.Generic.IList`1[Financeiro.Dominio.Views.ParcelaTituloView] CalculaParcelas(Financeiro.Dominio.Views.CalculoParcelasView)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/calculaparcelas
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs
+Linha:     1890
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Financeiro.ApplicationService.Service.ContasareceberService.CalculaParcelas(CalculoParcelasView CalculoParcelas) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1890
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.CalculaParcelas(HttpRequestMessage request, CalculoParcelasView parcelamento) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 1114
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 8:52:43
+Rotina:    System.Collections.Generic.IList`1[Financeiro.Dominio.Views.ParcelaTituloView] CalculaParcelas(Financeiro.Dominio.Views.CalculoParcelasView)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/calculaparcelas
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs
+Linha:     1890
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Financeiro.ApplicationService.Service.ContasareceberService.CalculaParcelas(CalculoParcelasView CalculoParcelas) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1890
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.CalculaParcelas(HttpRequestMessage request, CalculoParcelasView parcelamento) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 1114
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 8:52:59
+Rotina:    System.Collections.Generic.IList`1[Financeiro.Dominio.Views.ParcelaTituloView] CalculaParcelas(Financeiro.Dominio.Views.CalculoParcelasView)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/calculaparcelas
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs
+Linha:     1890
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Financeiro.ApplicationService.Service.ContasareceberService.CalculaParcelas(CalculoParcelasView CalculoParcelas) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1890
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.CalculaParcelas(HttpRequestMessage request, CalculoParcelasView parcelamento) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 1114
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 8:53:1
+Rotina:    System.Collections.Generic.IList`1[Financeiro.Dominio.Views.ParcelaTituloView] CalculaParcelas(Financeiro.Dominio.Views.CalculoParcelasView)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/calculaparcelas
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs
+Linha:     1890
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Financeiro.ApplicationService.Service.ContasareceberService.CalculaParcelas(CalculoParcelasView CalculoParcelas) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1890
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.CalculaParcelas(HttpRequestMessage request, CalculoParcelasView parcelamento) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 1114
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 8:53:9
+Rotina:    System.Collections.Generic.IList`1[Financeiro.Dominio.Views.ParcelaTituloView] CalculaParcelas(Financeiro.Dominio.Views.CalculoParcelasView)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/calculaparcelas
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs
+Linha:     1890
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Financeiro.ApplicationService.Service.ContasareceberService.CalculaParcelas(CalculoParcelasView CalculoParcelas) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1890
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.CalculaParcelas(HttpRequestMessage request, CalculoParcelasView parcelamento) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 1114
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 8:53:24
+Rotina:    System.Collections.Generic.IList`1[Financeiro.Dominio.Views.ParcelaTituloView] CalculaParcelas(Financeiro.Dominio.Views.CalculoParcelasView)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/calculaparcelas
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs
+Linha:     1890
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Financeiro.ApplicationService.Service.ContasareceberService.CalculaParcelas(CalculoParcelasView CalculoParcelas) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1890
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.CalculaParcelas(HttpRequestMessage request, CalculoParcelasView parcelamento) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 1114
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 8:53:46
+Rotina:    System.Collections.Generic.IList`1[Financeiro.Dominio.Views.ParcelaTituloView] CalculaParcelas(Financeiro.Dominio.Views.CalculoParcelasView)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/calculaparcelas
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs
+Linha:     1890
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Financeiro.ApplicationService.Service.ContasareceberService.CalculaParcelas(CalculoParcelasView CalculoParcelas) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1890
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.CalculaParcelas(HttpRequestMessage request, CalculoParcelasView parcelamento) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 1114
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 8:54:45
+Rotina:    System.Collections.Generic.IList`1[Financeiro.Dominio.Views.ParcelaTituloView] CalculaParcelas(Financeiro.Dominio.Views.CalculoParcelasView)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/calculaparcelas
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs
+Linha:     1890
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Financeiro.ApplicationService.Service.ContasareceberService.CalculaParcelas(CalculoParcelasView CalculoParcelas) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1890
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.CalculaParcelas(HttpRequestMessage request, CalculoParcelasView parcelamento) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 1114
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 8:56:32
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/?$select=id,intEmpresaId,documentoModelo,documentoSerie,clienteNome
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 225
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 9:41:3
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Nome de coluna 'anp' inválido.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__2[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.FindInStore(WrappedEntityKey key, String keyValuesParamName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   em System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   em Infra.Repositorio.RepositorioBase`1.Get(Object id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Conexao\Infra\Repositorio\RepositorioBase.cs:linha 25
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvarItensInsercao(DocumentosaidaView entidadePostado, DocumentosaidaView entidade, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 596
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1042
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 9:41:23
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Nome de coluna 'anp' inválido.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__2[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.FindInStore(WrappedEntityKey key, String keyValuesParamName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   em System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   em Infra.Repositorio.RepositorioBase`1.Get(Object id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Conexao\Infra\Repositorio\RepositorioBase.cs:linha 25
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvarItensInsercao(DocumentosaidaView entidadePostado, DocumentosaidaView entidade, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 596
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1042
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 9:42:35
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Nome de coluna 'anp' inválido.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__2[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.FindInStore(WrappedEntityKey key, String keyValuesParamName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   em System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   em Infra.Repositorio.RepositorioBase`1.Get(Object id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Conexao\Infra\Repositorio\RepositorioBase.cs:linha 25
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvarItensInsercao(DocumentosaidaView entidadePostado, DocumentosaidaView entidade, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 596
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1042
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 9:45:1
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Nome de coluna 'anp' inválido.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__2[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.FindInStore(WrappedEntityKey key, String keyValuesParamName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   em System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   em Infra.Repositorio.RepositorioBase`1.Get(Object id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Conexao\Infra\Repositorio\RepositorioBase.cs:linha 25
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvarItensInsercao(DocumentosaidaView entidadePostado, DocumentosaidaView entidade, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 596
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1042
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 9:50:9
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Já existe um DataReader aberto associado a este Command que deve ser fechado primeiro.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   em PainelControle.ApplicationService.Service.ParametroService.Get(String pParametro, Nullable`1 pIdFilial) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\PainelControle\PainelControle.ApplicationService\Service\ParametroService.cs:linha 67
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.isComissaoPorRegra() na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 29
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1114
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 10:51:44
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/?$select=id,intEmpresaId,documentoModelo,documentoSerie,clienteNome
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 225
+
+--------------------------------------------
+ 
+Data Hora: 1/03/2018 11:7:32
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Já existe um DataReader aberto associado a este Command que deve ser fechado primeiro.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   em PainelControle.ApplicationService.Service.ParametroService.Get(String pParametro, Nullable`1 pIdFilial) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\PainelControle\PainelControle.ApplicationService\Service\ParametroService.cs:linha 67
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.isComissaoPorRegra() na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 29
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1039
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------

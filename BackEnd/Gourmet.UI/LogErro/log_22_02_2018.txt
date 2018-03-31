@@ -1,0 +1,82 @@
+ 
+Data Hora: 22/02/2018 0:20:2
+Rotina:    System.String GetProviderManifestTokenChecked(System.Data.Entity.Core.Common.DbProviderServices, System.Data.Common.DbConnection)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_ProviderIncompatibleException
+Título:    Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Utilities.DbProviderServicesExtensions.GetProviderManifestTokenChecked(DbProviderServices providerServices, DbConnection connection)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.<>c__DisplayClass1.<ResolveManifestToken>b__0(Tuple`3 k)
+   em System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   em System.Data.Entity.Infrastructure.DefaultManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   em System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 97
+
+--------------------------------------------
+ 
+Data Hora: 22/02/2018 0:23:10
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,codigo,idProdutoGrade,descricao,unidadeComercial,unidadeCompra,ean,codigoAuxiliar,grade,kit,eixoLinha,eixoColuna,descricaoCompleta,descricaoGrupo,idGrupo,estProdutoKit,estProduto,estProdutoGrade,estProdutoGrupo,estArmazem,estProdutoImposto,fracionavel&$expand=estProdutoImposto
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Nome de coluna 'pdv_documento_serie' inválido.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 147
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------
+ 
+Data Hora: 22/02/2018 16:32:41
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,codigo,idProdutoGrade,descricao,unidadeComercial,unidadeCompra,ean,codigoAuxiliar,grade,kit,eixoLinha,eixoColuna,descricaoCompleta,descricaoGrupo,idGrupo,estProdutoKit,estProduto,estProdutoGrade,estProdutoGrupo,estArmazem,estProdutoImposto,fracionavel&$expand=estProdutoImposto
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------

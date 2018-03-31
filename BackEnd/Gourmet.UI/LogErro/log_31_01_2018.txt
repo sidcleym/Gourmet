@@ -1,0 +1,206 @@
+ 
+Data Hora: 31/01/2018 9:31:58
+Rotina:    Faturamento.Dominio.Views.DocumentosaidaItemView MontaDocumentosaidaItem(Faturamento.Dominio.Views.DocumentosaidaView, Faturamento.Dominio.Views.DocumentosaidaItemView, Int16)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\DocumentosaidaHelper.cs
+Linha:     364
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Helpers.DocumentosaidaHelper.MontaDocumentosaidaItem(DocumentosaidaView entidade, DocumentosaidaItemView item, Int16 ordem) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\DocumentosaidaHelper.cs:linha 364
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvarItensInsercao(DocumentosaidaView entidadePostado, DocumentosaidaView entidade, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 618
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1042
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Salvar(HttpRequestMessage request, DocumentosaidaView entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 303
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 9:33:5
+Rotina:    Faturamento.Dominio.Views.DocumentosaidaItemView MontaDocumentosaidaItem(Faturamento.Dominio.Views.DocumentosaidaView, Faturamento.Dominio.Views.DocumentosaidaItemView, Int16)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\DocumentosaidaHelper.cs
+Linha:     364
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Helpers.DocumentosaidaHelper.MontaDocumentosaidaItem(DocumentosaidaView entidade, DocumentosaidaItemView item, Int16 ordem) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\DocumentosaidaHelper.cs:linha 364
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvarItensInsercao(DocumentosaidaView entidadePostado, DocumentosaidaView entidade, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 618
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1042
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Salvar(HttpRequestMessage request, DocumentosaidaView entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 303
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 15:12:35
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/painelcontrole/usuario/conta
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.UsuarioController.GetPerfil(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\UsuarioController.cs:linha 94
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 15:14:55
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/painelcontrole/usuario/conta
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.UsuarioController.GetPerfil(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\UsuarioController.cs:linha 94
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 17:16:36
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/painelcontrole/usuario/conta
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.UsuarioController.GetPerfil(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\UsuarioController.cs:linha 94
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 17:20:50
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/painelcontrole/usuario/conta
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.UsuarioController.GetPerfil(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\UsuarioController.cs:linha 94
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 17:21:27
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/vendedor
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.VendedorController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\VendedorController.cs:linha 70
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 17:45:3
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Salvar(HttpRequestMessage request, DocumentosaidaView entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 300
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 17:52:45
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Salvar(HttpRequestMessage request, DocumentosaidaView entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 300
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 17:53:54
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Salvar(HttpRequestMessage request, DocumentosaidaView entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 300
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 17:54:7
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Salvar(HttpRequestMessage request, DocumentosaidaView entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 300
+
+--------------------------------------------
+ 
+Data Hora: 31/01/2018 17:54:15
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Salvar(HttpRequestMessage request, DocumentosaidaView entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 300
+
+--------------------------------------------

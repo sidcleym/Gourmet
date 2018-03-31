@@ -1,0 +1,102 @@
+ 
+Data Hora: 7/02/2018 8:26:5
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,intEmpresaId,estProdutoGrupoId,codigo,descricao,unidadeComercial,unidadeCompra,unidadeTributavel,codigoAuxiliar,conversorEntrada,embalagemMultiplo,embalagemQuantidade,pesoLiquido,pesoBruto,ncm,ean,eanTributavel,quantidadeTributavel,anp,mercadoriaOrigem,itemGenero,itemTipo,naturezaReceita,naturezaCredito,contaContabil,cfopEntrada,cfopEntradaDevolucao,cfopSaida,cfopSaidaDevolucao,dicaAplicacao,garantiaTempo,tipo,fracionavel,produtoPesado,grade,lote,loteSerie,kit,desativado,cest,foto,logCriacao,logAtualizacao,logPctUsuarioId
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------
+ 
+Data Hora: 7/02/2018 8:27:22
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,intEmpresaId,estProdutoGrupoId,codigo,descricao,unidadeComercial,unidadeCompra,unidadeTributavel,codigoAuxiliar,conversorEntrada,embalagemMultiplo,embalagemQuantidade,pesoLiquido,pesoBruto,ncm,ean,eanTributavel,quantidadeTributavel,anp,mercadoriaOrigem,itemGenero,itemTipo,naturezaReceita,naturezaCredito,contaContabil,cfopEntrada,cfopEntradaDevolucao,cfopSaida,cfopSaidaDevolucao,dicaAplicacao,garantiaTempo,tipo,fracionavel,produtoPesado,grade,lote,loteSerie,kit,desativado,cest,foto,logCriacao,logAtualizacao,logPctUsuarioId
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------
+ 
+Data Hora: 7/02/2018 8:30:15
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,intEmpresaId,estProdutoGrupoId,codigo,descricao,unidadeComercial,unidadeCompra,unidadeTributavel,codigoAuxiliar,conversorEntrada,embalagemMultiplo,embalagemQuantidade,pesoLiquido,pesoBruto,ncm,ean,eanTributavel,quantidadeTributavel,anp,mercadoriaOrigem,itemGenero,itemTipo,naturezaReceita,naturezaCredito,contaContabil,cfopEntrada,cfopEntradaDevolucao,cfopSaida,cfopSaidaDevolucao,dicaAplicacao,garantiaTempo,tipo,fracionavel,produtoPesado,grade,lote,loteSerie,kit,desativado,cest,foto,logCriacao,logAtualizacao,logPctUsuarioId
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------
+ 
+Data Hora: 7/02/2018 8:33:32
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,intEmpresaId,estProdutoGrupoId,codigo,descricao,unidadeComercial,unidadeCompra,unidadeTributavel,codigoAuxiliar,conversorEntrada,embalagemMultiplo,embalagemQuantidade,pesoLiquido,pesoBruto,ncm,ean,eanTributavel,quantidadeTributavel,anp,mercadoriaOrigem,itemGenero,itemTipo,naturezaReceita,naturezaCredito,contaContabil,cfopEntrada,cfopEntradaDevolucao,cfopSaida,cfopSaidaDevolucao,dicaAplicacao,garantiaTempo,tipo,fracionavel,produtoPesado,grade,lote,loteSerie,kit,desativado,cest,foto,logCriacao,logAtualizacao,logPctUsuarioId
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------
+ 
+Data Hora: 7/02/2018 8:35:8
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,intEmpresaId,estProdutoGrupoId,codigo,descricao,unidadeComercial,unidadeCompra,unidadeTributavel,codigoAuxiliar,conversorEntrada,embalagemMultiplo,embalagemQuantidade,pesoLiquido,pesoBruto,ncm,ean,eanTributavel,quantidadeTributavel,anp,mercadoriaOrigem,itemGenero,itemTipo,naturezaReceita,naturezaCredito,contaContabil,cfopEntrada,cfopEntradaDevolucao,cfopSaida,cfopSaidaDevolucao,dicaAplicacao,garantiaTempo,tipo,fracionavel,produtoPesado,grade,lote,loteSerie,kit,desativado,cest,foto,logCriacao,logAtualizacao,logPctUsuarioId
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------
+ 
+Data Hora: 7/02/2018 8:37:0
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,intEmpresaId,estProdutoGrupoId,codigo,descricao,unidadeComercial,unidadeCompra,unidadeTributavel,codigoAuxiliar,conversorEntrada,embalagemMultiplo,embalagemQuantidade,pesoLiquido,pesoBruto,ncm,ean,eanTributavel,quantidadeTributavel,anp,mercadoriaOrigem,itemGenero,itemTipo,naturezaReceita,naturezaCredito,contaContabil,cfopEntrada,cfopEntradaDevolucao,cfopSaida,cfopSaidaDevolucao,dicaAplicacao,garantiaTempo,tipo,fracionavel,produtoPesado,grade,lote,loteSerie,kit,desativado,cest,foto,logCriacao,logAtualizacao,logPctUsuarioId
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------

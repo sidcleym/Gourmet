@@ -1,0 +1,108 @@
+ 
+Data Hora: 24/01/2018 8:50:27
+Rotina:    Faturamento.Dominio.Modelo.Documentosaida Get(Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/7906
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs
+Linha:     872
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Get(Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 872
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Get(Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 248
+
+--------------------------------------------
+ 
+Data Hora: 24/01/2018 8:51:16
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/7906
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Get(Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 246
+
+--------------------------------------------
+ 
+Data Hora: 24/01/2018 9:46:38
+Rotina:    System.Net.Http.HttpResponseMessage DownloadDanfe(System.Net.Http.HttpRequestMessage, Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/danfe/7906
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs
+Linha:     594
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadDanfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 594
+
+--------------------------------------------
+ 
+Data Hora: 24/01/2018 9:47:1
+Rotina:    System.Net.Http.HttpResponseMessage DownloadDanfe(System.Net.Http.HttpRequestMessage, Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/danfe/2474
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs
+Linha:     594
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadDanfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 594
+
+--------------------------------------------
+ 
+Data Hora: 24/01/2018 9:48:54
+Rotina:    System.Net.Http.HttpResponseMessage DownloadDanfe(System.Net.Http.HttpRequestMessage, Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/danfe/5506
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs
+Linha:     593
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Não foi possível fazer download do xml: 29171114937991000148650550000000449000000441-Nfe.xml
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadDanfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 593
+
+--------------------------------------------
+ 
+Data Hora: 24/01/2018 9:49:18
+Rotina:    System.Net.Http.HttpResponseMessage DownloadDanfe(System.Net.Http.HttpRequestMessage, Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/danfe/5505
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs
+Linha:     593
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    o documento série/Nº:55/43 ainda não foi transmitido.
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadDanfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 593
+
+--------------------------------------------
+ 
+Data Hora: 24/01/2018 9:49:34
+Rotina:    System.Net.Http.HttpResponseMessage DownloadDanfe(System.Net.Http.HttpRequestMessage, Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/danfe/5508
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs
+Linha:     593
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Não foi possível fazer download do xml: 29171114937991000148650550000000469000000462-Nfe.xml
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadDanfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 593
+
+--------------------------------------------

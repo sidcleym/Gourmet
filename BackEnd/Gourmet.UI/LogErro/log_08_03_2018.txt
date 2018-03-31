@@ -1,0 +1,17 @@
+ 
+Data Hora: 8/03/2018 10:19:54
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/pedido/terminal?$filter=faturado%20eq%200%20and%20cancelado%20eq%20false%20and%20situacao%20eq%201%20and%20bloqueio%20eq%200%20%20and%20numero%20eq%202&$select=id,fisOperacaoId,fatVendedorId,fatProfissionalId,fatCondicaopagamentoId,intClienteId,fatTabelavendaId,serie,numero,dataEmissao,clienteNome,clienteTelefone,clienteCpfCnpj,situacao,informacaoComplementar,informacaoFisco,valorMercadoria,valorAcrescimo,valorDesconto,valorFrete,valorSeguro,valorDespesa,valorIsento,valorNaoIncidencia,valorTotal,valorTributoIbpt,impostoIcmsBase,impostoIcms,impostoIcmsStBase,impostoIcmsSt,impostoIpiBase,impostoIpi,impostoPisBase,impostoPis,impostoCofinsBase,impostoCofins,entregaCep,entregaLogradouro,entregaLogradouroNumero,entregaComplemento,entregaBairro,entregaIntCidadeId,entregaIntCidade,entregaUf,enderecoCep,enderecoLogradouro,enderecoLogradouroNumero,enderecoComplemento,enderecoBairro,enderecoIntCidadeId,enderecoIntCidade,enderecoUf,cupomEcfFabricante,cupomEcfSerie,cupomEcfModelo,cupomEcfIdentificacao,cupomCooDav,cupomCooCcf,cupomCcf,pafHash,fatRegracomercialNegociacaoId,faturado,bloqueio,impresso,cancelado,logCriacao,logAtualizacao,logPctUsuarioId,liberacaoDataHoraComercial,liberacaoDataHoraCredito&$expand=enderecoIntCidade,entregaIntCidade,itens($expand=produtoEstProduto($expand=estProdutoImposto),produtoEstProdutoGrade%20),fatTabelavenda,intCliente,fatProfissional,fatVendedor,fatCondicaopagamento,parcelas
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.PedidoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\PedidovendaController.cs:linha 331
+
+--------------------------------------------

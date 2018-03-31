@@ -1,0 +1,309 @@
+ 
+Data Hora: 16/03/2018 8:38:20
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 47
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 8:38:21
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 47
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 8:38:21
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 47
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 8:38:22
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 47
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 10:4:17
+Rotina:    Void InitializeContext()
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    The operation cannot be completed because the DbContext has been disposed.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   em System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   em System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   em PainelControle.ApplicationService.Service.ParametroService.Get(String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 70
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.isComissaoPorRegra() na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 29
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1047
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 10:49:45
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 47
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 10:53:44
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 10:55:37
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/?$orderby=logAtualizacao%20desc&$top=15&$skip=0&$select=id,documentoModelo,documentoSerie,documentoNumero,documentoDataEmissao,documentoFinalidade,documentoTransmissao,documentoCancelado,clienteNome,clienteCpfCnpj,valorTotal,operacaoMovimentaFinanceiro,operacaoMovimentaEstoque,logCriacao,logAtualizacao,logPctUsuarioId&$expand=fisOperacao,fatVendedor
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 225
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 10:55:49
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 47
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 11:3:40
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 47
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 11:58:46
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/?$orderby=logAtualizacao%20desc&$top=15&$skip=0&$select=id,documentoModelo,documentoSerie,documentoNumero,documentoDataEmissao,documentoFinalidade,documentoTransmissao,documentoCancelado,clienteNome,clienteCpfCnpj,valorTotal,operacaoMovimentaFinanceiro,operacaoMovimentaEstoque,logCriacao,logAtualizacao,logPctUsuarioId&$expand=fisOperacao,fatVendedor
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 225
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 11:58:57
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 47
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 16:25:13
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Já existe um DataReader aberto associado a este Command que deve ser fechado primeiro.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   em PainelControle.ApplicationService.Service.ParametroService.Get(String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 70
+   em FrameWork.Excecao.RepositorioChaves.TNucleoPainel.GetTempoExpiracao(Int32 idFIlial) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\NucleoCompartilhado\RepositorioChaves\TNucleoPainel.cs:linha 52
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 128
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 16:25:42
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Já existe um DataReader aberto associado a este Command que deve ser fechado primeiro.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   em PainelControle.ApplicationService.Service.ParametroService.Get(String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 70
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.isComissaoPorRegra() na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 29
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1122
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 16/03/2018 16:26:38
+Rotina:    Void InitializeContext()
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    The operation cannot be completed because the DbContext has been disposed.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   em System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   em Financeiro.ApplicationService.Helpers.ContasareceberHelper.AnexarVirtuaisSalvar(Contasareceber entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Helpers\ContasareceberHelper.cs:linha 449
+   em Financeiro.ApplicationService.Service.ContasareceberService.Salva(Contasareceber tituloPostado, Nullable`1 pNumeroTitulo, Boolean inclusaoAutomatica, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 369
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GeraTitulosAReceber(Documentosaida documento, IList`1 parcelas, TipoAcao acao, Conta pConta, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2413
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GeraFinanceiro(Documentosaida documento, IList`1 parcelas, TipoAcao acao, Conta pContaCaixa, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2341
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1108
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------

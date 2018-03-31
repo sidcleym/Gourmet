@@ -1,0 +1,20 @@
+ 
+Data Hora: 11/01/2018 9:34:10
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe GerarXmlETransmitir(Int64)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2253
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\DocumentosFiscais\MDFE\MDFeTransmissaoService.cs
+Linha:     177
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Erros na validação:
+ O elemento 'disp' no espaço para nome 'http://www.portalfiscal.inf.br/mdfe' apresenta elemento filho 'nCompra' no espaço para nome 'http://www.portalfiscal.inf.br/mdfe' inválido. Lista de possíveis elementos esperados: 'CNPJForn' no espaço para nome 'http://www.portalfiscal.inf.br/mdfe'.
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em DocumentosFiscais.MDFE.MDFeTransmissaoService.GerarXmlETransmitir(Int64 numeroLote) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\DocumentosFiscais\MDFE\MDFeTransmissaoService.cs:linha 177
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 411
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------

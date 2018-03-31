@@ -1,0 +1,32 @@
+ 
+Data Hora: 21/02/2018 10:0:57
+Rotina:    Integracao.Dominio.Modelo.Empresa Get(Int32)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs
+Linha:     72
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Integracao.ApplicationService.Services.EmpresaService.Get(Int32 id) na C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs:linha 72
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 117
+
+--------------------------------------------
+ 
+Data Hora: 21/02/2018 10:20:8
+Rotina:    Integracao.Dominio.Modelo.Empresa Get(Int32)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs
+Linha:     72
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Integracao.ApplicationService.Services.EmpresaService.Get(Int32 id) na C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs:linha 72
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 117
+
+--------------------------------------------

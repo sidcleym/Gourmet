@@ -1,0 +1,203 @@
+ 
+Data Hora: 17/03/2018 9:18:13
+Rotina:    Void InitializeContext()
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    The operation cannot be completed because the DbContext has been disposed.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   em System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   em System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   em PainelControle.ApplicationService.Service.ParametroService.Get(String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 70
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.isComissaoPorRegra() na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 29
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1047
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 17/03/2018 9:18:30
+Rotina:    Void InitializeContext()
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    The operation cannot be completed because the DbContext has been disposed.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em Faturamento.ApplicationService.Helpers.DocumentosaidaHelper.MontaDocumentosaidaItem(DocumentosaidaView entidade, DocumentosaidaItemView item, Int16 ordem) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\DocumentosaidaHelper.cs:linha 331
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.SalvarItensInsercao(DocumentosaidaView entidadePostado, DocumentosaidaView entidade, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 618
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1050
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 17/03/2018 9:19:11
+Rotina:    Void InitializeContext()
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    The operation cannot be completed because the DbContext has been disposed.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.LazyInternalContext.get_ObjectContext()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.CreateObjectQuery(Boolean asNoTracking, Boolean streaming)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.InitializeUnderlyingTypes(EntitySetTypePair pair)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   em System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   em Financeiro.ApplicationService.Helpers.ContasareceberHelper.AnexarVirtuaisSalvar(Contasareceber entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Helpers\ContasareceberHelper.cs:linha 449
+   em Financeiro.ApplicationService.Service.ContasareceberService.Salva(Contasareceber tituloPostado, Nullable`1 pNumeroTitulo, Boolean inclusaoAutomatica, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 369
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GeraTitulosAReceber(Documentosaida documento, IList`1 parcelas, TipoAcao acao, Conta pConta, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2413
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GeraFinanceiro(Documentosaida documento, IList`1 parcelas, TipoAcao acao, Conta pContaCaixa, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2341
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1108
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 17/03/2018 9:19:33
+Rotina:    Void InitializeContext()
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    The operation cannot be completed because the DbContext has been disposed.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   em System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   em System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   em PainelControle.ApplicationService.Service.ParametroService.Get(String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 70
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.isComissaoPorRegra() na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 29
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1047
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 17/03/2018 9:19:35
+Rotina:    Void InitializeContext()
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    The operation cannot be completed because the DbContext has been disposed.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   em System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   em System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   em PainelControle.ApplicationService.Service.ParametroService.Get(String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 70
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.isComissaoPorRegra() na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 29
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1047
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 17/03/2018 9:22:0
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Já existe um DataReader aberto associado a este Command que deve ser fechado primeiro.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   em PainelControle.ApplicationService.Service.ParametroService.Get(String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 70
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 102
+   em Financeiro.ApplicationService.Helpers.ContasareceberHelper.GetModeloJurosSelecionado(Nullable`1 pIdFilial) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Helpers\ContasareceberHelper.cs:linha 875
+   em Financeiro.ApplicationService.Service.ContasareceberService.Get(Int32 id, Nullable`1 pDataQuitacao) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 276
+   em Financeiro.ApplicationService.Service.ContasareceberService.BaixaTituloNormal(Conta pCaixa, Contasareceber tituloPostado, DbContextTransaction pTransaction, Boolean inclusao, Int64 lote) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1525
+   em Financeiro.ApplicationService.Service.ContasareceberService.BaixaTitulo(Contasareceber titulo, TipoBaixa tipoBaixa, Boolean inclusao, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 1413
+   em Financeiro.ApplicationService.Service.ContasareceberService.Salva(Contasareceber tituloPostado, Nullable`1 pNumeroTitulo, Boolean inclusaoAutomatica, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Financeiro\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 479
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GeraTitulosAReceber(Documentosaida documento, IList`1 parcelas, TipoAcao acao, Conta pConta, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2413
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GeraFinanceiro(Documentosaida documento, IList`1 parcelas, TipoAcao acao, Conta pContaCaixa, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2341
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Salva(DocumentosaidaView entidadePostado, DbContextTransaction pTransaction) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 1108
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 342
+
+--------------------------------------------
+ 
+Data Hora: 17/03/2018 10:36:26
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Ocorreu um erro no nível de transporte durante o recebimento de resultados do servidor. (provider: TCP Provider, error: 0 - O tempo limite do semáforo expirou.)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 147
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 340
+
+--------------------------------------------

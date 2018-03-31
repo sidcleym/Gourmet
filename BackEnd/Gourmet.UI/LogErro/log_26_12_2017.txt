@@ -1,0 +1,389 @@
+ 
+Data Hora: 26/12/2017 15:49:46
+Rotina:    Void DownloadFile(System.String, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    Valor não pode ser nulo.
+Nome do parâmetro: address
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Net.WebClient.DownloadFile(String address, String fileName)
+   em FrameWork.Utils.TUtil.DownloadFile(String uri, String pFileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Utils\Tutil.cs:linha 373
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 209
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 15:50:28
+Rotina:    Void DownloadFile(System.String, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    Valor não pode ser nulo.
+Nome do parâmetro: address
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Net.WebClient.DownloadFile(String address, String fileName)
+   em FrameWork.Utils.TUtil.DownloadFile(String uri, String pFileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Utils\Tutil.cs:linha 373
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 209
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 15:51:30
+Rotina:    Void DownloadFile(System.String, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    Valor não pode ser nulo.
+Nome do parâmetro: address
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Net.WebClient.DownloadFile(String address, String fileName)
+   em FrameWork.Utils.TUtil.DownloadFile(String uri, String pFileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Utils\Tutil.cs:linha 373
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 209
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 15:52:5
+Rotina:    Void DownloadFile(System.String, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    Valor não pode ser nulo.
+Nome do parâmetro: address
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Net.WebClient.DownloadFile(String address, String fileName)
+   em FrameWork.Utils.TUtil.DownloadFile(String uri, String pFileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Utils\Tutil.cs:linha 373
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 209
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 15:52:25
+Rotina:    Void DownloadFile(System.String, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    Valor não pode ser nulo.
+Nome do parâmetro: address
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Net.WebClient.DownloadFile(String address, String fileName)
+   em FrameWork.Utils.TUtil.DownloadFile(String uri, String pFileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Utils\Tutil.cs:linha 373
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 209
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 15:54:44
+Rotina:    Void DownloadFile(System.String, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    Valor não pode ser nulo.
+Nome do parâmetro: address
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Net.WebClient.DownloadFile(String address, String fileName)
+   em FrameWork.Utils.TUtil.DownloadFile(String uri, String pFileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Utils\Tutil.cs:linha 373
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 209
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 15:55:50
+Rotina:    Void DownloadFile(System.String, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    Valor não pode ser nulo.
+Nome do parâmetro: address
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Net.WebClient.DownloadFile(String address, String fileName)
+   em FrameWork.Utils.TUtil.DownloadFile(String uri, String pFileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Utils\Tutil.cs:linha 373
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 209
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 15:56:9
+Rotina:    Void DownloadFile(System.String, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    Valor não pode ser nulo.
+Nome do parâmetro: address
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Net.WebClient.DownloadFile(String address, String fileName)
+   em FrameWork.Utils.TUtil.DownloadFile(String uri, String pFileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Utils\Tutil.cs:linha 373
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 209
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 16:13:24
+Rotina:    Void DownloadFile(System.String, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    Valor não pode ser nulo.
+Nome do parâmetro: address
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Net.WebClient.DownloadFile(String address, String fileName)
+   em FrameWork.Utils.TUtil.DownloadFile(String uri, String pFileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Utils\Tutil.cs:linha 373
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 209
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 16:19:13
+Rotina:    System.String BaixaCertificado(Integracao.Dominio.Modelo.Empresa)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs
+Linha:     210
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Não foi possível localizar o certificado da empresa TESTE UNITARIO - LDTA
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 210
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 16:23:44
+Rotina:    System.String BaixaCertificado(Integracao.Dominio.Modelo.Empresa)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs
+Linha:     210
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Não foi possível localizar o certificado da empresa TESTE UNITARIO - LDTA
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 210
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 16:24:15
+Rotina:    System.String BaixaCertificado(Integracao.Dominio.Modelo.Empresa)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs
+Linha:     210
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Não foi possível localizar o certificado da empresa TESTE UNITARIO - LDTA
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 210
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 16:24:35
+Rotina:    System.String BaixaCertificado(Integracao.Dominio.Modelo.Empresa)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2198
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs
+Linha:     210
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Não foi possível localizar o certificado da empresa TESTE UNITARIO - LDTA
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 210
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 16:47:12
+Rotina:    System.String BaixaCertificado(Integracao.Dominio.Modelo.Empresa)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2197
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs
+Linha:     210
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Não foi possível localizar o certificado da empresa TESTE UNITARIO - LDTA
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 210
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 16:51:3
+Rotina:    System.String BaixaCertificado(Integracao.Dominio.Modelo.Empresa)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2197
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs
+Linha:     210
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Não foi possível localizar o certificado da empresa TESTE UNITARIO - LDTA
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Helpers.FaturamentoHelper.BaixaCertificado(Empresa pEmpresa) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\FaturamentoHelper.cs:linha 210
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaEmitente(Empresa pEmpresa, Cidade pCidadeEmitente) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 316
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 367
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 948
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 869
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 17:18:6
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/2198
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.MdfeController.Atualizar(HttpRequestMessage request, Int32 id, Mdfe entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 223
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 17:21:26
+Rotina:    Void VerifyEntityValueIsEditable(System.Data.Entity.Core.Objects.StateManagerTypeMetadata, Int32, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/2198
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    The property 'id' is part of the object's key information and cannot be modified. 
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.Objects.EntityEntry.VerifyEntityValueIsEditable(StateManagerTypeMetadata typeMetadata, Int32 ordinal, String memberName)
+   em System.Data.Entity.Core.Objects.EntityEntry.GetAndValidateChangeMemberInfo(String entityMemberName, Object complexObject, String complexObjectMemberName, StateManagerTypeMetadata& typeMetadata, String& changingMemberName, Object& changingObject)
+   em System.Data.Entity.Core.Objects.EntityEntry.EntityMemberChanging(String entityMemberName, Object complexObject, String complexObjectMemberName)
+   em System.Data.Entity.Core.Objects.EntityEntry.EntityMemberChanging(String entityMemberName)
+   em System.Data.Entity.Core.Objects.ObjectStateEntry.System.Data.Entity.Core.Objects.DataClasses.IEntityChangeTracker.EntityMemberChanging(String entityMemberName)
+   em System.Data.Entity.Core.Objects.Internal.SnapshotChangeTrackingStrategy.SetCurrentValue(EntityEntry entry, StateManagerMemberMetadata member, Int32 ordinal, Object target, Object value)
+   em System.Data.Entity.Core.Objects.Internal.EntityWrapper`1.SetCurrentValue(EntityEntry entry, StateManagerMemberMetadata member, Int32 ordinal, Object target, Object value)
+   em System.Data.Entity.Core.Objects.EntityEntry.SetCurrentEntityValue(StateManagerTypeMetadata metadata, Int32 ordinal, Object userObject, Object newValue)
+   em System.Data.Entity.Core.Objects.ObjectStateEntryDbUpdatableDataRecord.SetRecordValue(Int32 ordinal, Object value)
+   em System.Data.Entity.Internal.DbDataRecordPropertyValuesItem.set_Value(Object value)
+   em System.Data.Entity.Internal.InternalPropertyValues.SetValue(IPropertyValuesItem item, Object newValue)
+   em System.Data.Entity.Internal.InternalPropertyValues.SetValues(Object value)
+   em System.Data.Entity.Infrastructure.DbPropertyValues.SetValues(Object obj)
+   em Faturamento.ApplicationService.Service.MdfeService.Atualiza(Int32 id, Mdfe entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 675
+   em Plus.Api.Controllers.Faturamento.MdfeController.Atualizar(HttpRequestMessage request, Int32 id, Mdfe entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 225
+
+--------------------------------------------
+ 
+Data Hora: 26/12/2017 17:40:13
+Rotina:    Faturamento.Dominio.Modelo.Orcamento Atualiza(Int32, Faturamento.Dominio.Modelo.Orcamento)
+Rota:      http://localhost:2020/api/v1/faturamento/orcamento/2159
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\OrcamentoService.cs
+Linha:     903
+Tipo Erro: 1
+Nome Erro: FAT0001
+Título:    Cancelamento!
+Motivo:    Orçamento cancelado
+Solução :  Este orçamento se encontra cancelado.
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.OrcamentoService.Atualiza(Int32 id, Orcamento entidadePostado) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\OrcamentoService.cs:linha 903
+   em Plus.Api.Controllers.Faturamento.OrcamentoController.Put(HttpRequestMessage request, Int32 id, Orcamento entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\OrcamentoController.cs:linha 265
+
+--------------------------------------------

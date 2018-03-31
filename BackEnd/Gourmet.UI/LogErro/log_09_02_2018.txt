@@ -1,0 +1,117 @@
+ 
+Data Hora: 9/02/2018 14:46:4
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,codigo,idProdutoGrade,descricao,unidadeComercial,unidadeCompra,ean,codigoAuxiliar,grade,kit,eixoLinha,eixoColuna,descricaoCompleta,descricaoGrupo,idGrupo,estProdutoKit,estProduto,estProdutoGrade,estProdutoGrupo,estArmazem,fisModelotributacao,estProdutoImposto,fracionavel&$expand=estProdutoImposto
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------
+ 
+Data Hora: 9/02/2018 14:47:18
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,codigo,idProdutoGrade,descricao,unidadeComercial,unidadeCompra,ean,codigoAuxiliar,grade,kit,eixoLinha,eixoColuna,descricaoCompleta,descricaoGrupo,idGrupo,estProdutoKit,estProduto,estProdutoGrade,estProdutoGrupo,estArmazem,fisModelotributacao,estProdutoImposto,fracionavel&$expand=estProdutoImposto
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------
+ 
+Data Hora: 9/02/2018 14:48:33
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,codigo,idProdutoGrade,descricao,unidadeComercial,unidadeCompra,ean,codigoAuxiliar,grade,kit,eixoLinha,eixoColuna,descricaoCompleta,descricaoGrupo,idGrupo,estProdutoKit,estProduto,estProdutoGrade,estProdutoGrupo,estArmazem,fisModelotributacao,estProdutoImposto,fracionavel&$expand=estProdutoImposto
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------
+ 
+Data Hora: 9/02/2018 15:7:56
+Rotina:    Void MoveNext()
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs
+Linha:     123
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Acesso negado! Você não tem acesso a filial: DIEGO EMPRESA - LTDA
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 123
+
+--------------------------------------------
+ 
+Data Hora: 9/02/2018 15:18:58
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/fiscal/operacao/terminal?$filter=desativado%20eq%20false&$select=id,intEmpresaId,descricao,operacao,documentoModelo,documentoSerie,orcamentoSerie,pedidoSerie,documentoPresenca,documentoFinalidade,itemCfop,movimentoEstoque,movimentoFinanceiro,finPlanofinanceiroId,finCentrocustoId,desativado,logCriacao,logAtualizacao,logPctUsuarioId
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.OperacaoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Fiscal\OperacaoController.cs:linha 75
+
+--------------------------------------------
+ 
+Data Hora: 9/02/2018 15:19:21
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/produto/terminal?$select=id,codigo,idProdutoGrade,descricao,unidadeComercial,unidadeCompra,ean,codigoAuxiliar,grade,kit,eixoLinha,eixoColuna,descricaoCompleta,descricaoGrupo,idGrupo,estProdutoKit,estProduto,estProdutoGrade,estProdutoGrupo,estArmazem,fisModelotributacao,estProdutoImposto,fracionavel&$expand=estProdutoImposto
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ProdutoController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ProdutoController.cs:linha 197
+
+--------------------------------------------
+ 
+Data Hora: 9/02/2018 17:25:45
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/terminal
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.SalvarByTerminal(HttpRequestMessage request, DocumentosaidaView entidadePostada) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 308
+
+--------------------------------------------

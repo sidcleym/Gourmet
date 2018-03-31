@@ -1,29 +1,26 @@
-using Gourmet.Domain.Models;
-using Gourmet.Persistence.Infra;
-using Gourmet.Shared.Utils;
-using System;
-using System.Data.Entity.Migrations;
-
 namespace Gourmet.Persistence.Migrations
 {
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Migrations;
+    using System.Linq;
 
-
-    internal sealed class Configuration : DbMigrationsConfiguration<DataContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Gourmet.Persistence.Infra.DataContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
+
+
         }
 
-        protected override void Seed(DataContext context)
+        protected override void Seed(Gourmet.Persistence.Infra.DataContext context)
         {
             //  This method will be called after migrating to the latest version.
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
-            //context.Usuario.AddOrUpdate(new Usuario() { Nome="Sidcley Mendes", Email="sidcleym@gmail.com", SenhaCriptografada = CriptografiaHelper.CriptografarSenha("123456"), DtInclusao = DateTime.Now });
-            //context.Prato.AddOrUpdate(new Prato() { Nome = "Sidcley Mendes", Email = "sidcleym@gmail.com",  DtInclusao = DateTime.Now });
-            //context.Restaurante.AddOrUpdate(new Restaurante() { Descricao = "Street Figther", Ano=1998, DtInclusao = DateTime.Now });
         }
     }
 }

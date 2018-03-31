@@ -27,7 +27,7 @@ namespace Gourmet.Persistence.Infra
             modelBuilder.Properties<string>().Configure(p => p.HasMaxLength(100));
 
             modelBuilder.Configurations.Add(new UsuarioConfigurations());
-            Database.SetInitializer < DataContext > (new DropCreateDatabaseIfModelChanges<DataContext>());
+           // Database.SetInitializer < DataContext > (new DropCreateDatabaseIfModelChanges<DataContext>());
 
             //base.OnModelCreating(modelBuilder);
         }

@@ -1,0 +1,64 @@
+ 
+Data Hora: 20/01/2018 10:28:2
+Rotina:    System.Net.Http.HttpResponseMessage DownloadDamdfe(System.Net.Http.HttpRequestMessage, Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/download/damdfe/2233
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs
+Linha:     488
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Não foi possível fazer download do xml: 29180114937991000148582220000005601483416342-Nfe.xml
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.Faturamento.MdfeController.DownloadDamdfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 488
+
+--------------------------------------------
+ 
+Data Hora: 20/01/2018 10:43:9
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/?$orderby=logAtualizacao%20desc&$top=15&$skip=0&$select=id,mdfeSerie,mdfeNumero,mdfeTransmissao,mdfeEmissaoDataHora,mdfeEmissaoForma,mercadoriaValorTotal,mercadoriaPesoTotal,mdfeEncerrado,mdfeCancelado,logCriacao,logAtualizacao,logPctUsuarioId&$expand=
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.MdfeController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 122
+
+--------------------------------------------
+ 
+Data Hora: 20/01/2018 10:43:26
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.MdfeController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 50
+
+--------------------------------------------
+ 
+Data Hora: 20/01/2018 11:1:0
+Rotina:    System.Net.Http.HttpResponseMessage DownloadDamdfe(System.Net.Http.HttpRequestMessage, Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/download/damdfe/3261
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs
+Linha:     488
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Não foi possível fazer download do xml: 29180114937991000148582220000005941296176056-Nfe.xml
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.Faturamento.MdfeController.DownloadDamdfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 488
+
+--------------------------------------------

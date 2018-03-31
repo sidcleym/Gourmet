@@ -1,0 +1,148 @@
+ 
+Data Hora: 20/02/2018 9:58:40
+Rotina:    Void MoveNext()
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs
+Linha:     107
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Usuário e/ou senha inválidos
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 107
+
+--------------------------------------------
+ 
+Data Hora: 20/02/2018 10:25:38
+Rotina:    Integracao.Dominio.Modelo.Empresa Get(Int32)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs
+Linha:     72
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Integracao.ApplicationService.Services.EmpresaService.Get(Int32 id) na C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs:linha 72
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 117
+
+--------------------------------------------
+ 
+Data Hora: 20/02/2018 10:27:45
+Rotina:    Void InitializeContext()
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    The context cannot be used while the model is being created. This exception may be thrown if the context is used inside the OnModelCreating method or if the same context instance is accessed by multiple threads concurrently. Note that instance members of DbContext and related classes are not guaranteed to be thread safe.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 97
+
+--------------------------------------------
+ 
+Data Hora: 20/02/2018 10:36:57
+Rotina:    Integracao.Dominio.Modelo.Empresa Get(Int32)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs
+Linha:     72
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Integracao.ApplicationService.Services.EmpresaService.Get(Int32 id) na C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs:linha 72
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 117
+
+--------------------------------------------
+ 
+Data Hora: 20/02/2018 14:39:45
+Rotina:    Integracao.Dominio.Modelo.Empresa Get(Int32)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs
+Linha:     72
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Integracao.ApplicationService.Services.EmpresaService.Get(Int32 id) na C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs:linha 72
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 117
+
+--------------------------------------------
+ 
+Data Hora: 20/02/2018 14:41:30
+Rotina:    Integracao.Dominio.Modelo.Empresa Get(Int32)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs
+Linha:     72
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Integracao.ApplicationService.Services.EmpresaService.Get(Int32 id) na C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs:linha 72
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 117
+
+--------------------------------------------
+ 
+Data Hora: 20/02/2018 14:43:7
+Rotina:    Integracao.Dominio.Modelo.Empresa Get(Int32)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs
+Linha:     72
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Integracao.ApplicationService.Services.EmpresaService.Get(Int32 id) na C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs:linha 72
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 117
+
+--------------------------------------------
+ 
+Data Hora: 20/02/2018 14:44:30
+Rotina:    Integracao.Dominio.Modelo.Empresa Get(Int32)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs
+Linha:     72
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Integracao.ApplicationService.Services.EmpresaService.Get(Int32 id) na C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs:linha 72
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 117
+
+--------------------------------------------
+ 
+Data Hora: 20/02/2018 14:46:6
+Rotina:    Integracao.Dominio.Modelo.Empresa Get(Int32)
+Rota:      http://localhost:2020/api/v1/seguranca/token
+FileName:  C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs
+Linha:     72
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Integracao.ApplicationService.Services.EmpresaService.Get(Int32 id) na C:\Users\jnunes\Desktop\agent\_work\19\s\Integracao.ApplicationService\Services\EmpresaService.cs:linha 72
+   em Plus.Api.Security.AuthorizationServerProvider.<GrantResourceOwnerCredentials>d__7.MoveNext() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\AuthorizationServerProvider.cs:linha 117
+
+--------------------------------------------

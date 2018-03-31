@@ -1,0 +1,74 @@
+ 
+Data Hora: 23/01/2018 8:45:18
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/faturamento/documentofrete/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Faturamento.DocumentofreteController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentofreteController.cs:linha 47
+
+--------------------------------------------
+ 
+Data Hora: 23/01/2018 19:7:27
+Rotina:    System.Threading.Tasks.Task`1[System.Net.Http.HttpResponseMessage] Filiais(System.Net.Http.HttpRequestMessage)
+Rota:      http://localhost:2020/api/v1/integracao/empresa/filiais
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\EmpresaController.cs
+Linha:     66
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Usuario e/ou senha incorretos
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.EmpresaController.Filiais(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\EmpresaController.cs:linha 66
+
+--------------------------------------------
+ 
+Data Hora: 23/01/2018 18:8:46
+Rotina:    Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/5070
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    A cadeia de caracteres de entrada não estava em um formato correto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\29\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 101
+   em Financeiro.ApplicationService.Helpers.ContasareceberHelper.GetModeloJurosSelecionado(Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\34\s\Financeiro.ApplicationService\Helpers\ContasareceberHelper.cs:linha 875
+   em Financeiro.ApplicationService.Service.ContasareceberService.Get(Int32 id, Nullable`1 pDataQuitacao) na C:\Users\jnunes\Desktop\agent\_work\34\s\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 276
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.Get(Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 650
+
+--------------------------------------------
+ 
+Data Hora: 23/01/2018 18:19:23
+Rotina:    Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/5070
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    A cadeia de caracteres de entrada não estava em um formato correto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\29\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 101
+   em Financeiro.ApplicationService.Helpers.ContasareceberHelper.GetModeloJurosSelecionado(Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\34\s\Financeiro.ApplicationService\Helpers\ContasareceberHelper.cs:linha 875
+   em Financeiro.ApplicationService.Service.ContasareceberService.Get(Int32 id, Nullable`1 pDataQuitacao) na C:\Users\jnunes\Desktop\agent\_work\34\s\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 276
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.Get(Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 650
+
+--------------------------------------------

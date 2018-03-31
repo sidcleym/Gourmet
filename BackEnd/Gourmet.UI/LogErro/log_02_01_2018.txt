@@ -1,0 +1,263 @@
+ 
+Data Hora: 2/01/2018 11:35:18
+Rotina:    Void VerificaPermissao(System.String)
+Rota:      http://localhost:2020/api/v1/painelcontrole/usuario/conta
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     84
+Tipo Erro: 1
+Nome Erro: PCT0003
+Título:    Sem Permissão!
+Motivo:    Este usuário Não tem previlégios para executar esta ação!
+Solução :  Contacte o Administrador do sistema.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.VerificaPermissao(String rotina) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 84
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 40
+   em Plus.Api.Controllers.UsuarioController.GetPerfil(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\UsuarioController.cs:linha 94
+
+--------------------------------------------
+ 
+Data Hora: 2/01/2018 11:37:30
+Rotina:    Void VerificaPermissao(System.String)
+Rota:      http://localhost:2020/api/v1/painelcontrole/usuario/conta
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     84
+Tipo Erro: 1
+Nome Erro: PCT0003
+Título:    Sem Permissão!
+Motivo:    Este usuário Não tem previlégios para executar esta ação!
+Solução :  Contacte o Administrador do sistema.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.VerificaPermissao(String rotina) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 84
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 40
+   em Plus.Api.Controllers.UsuarioController.GetPerfil(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\UsuarioController.cs:linha 94
+
+--------------------------------------------
+ 
+Data Hora: 2/01/2018 11:38:43
+Rotina:    Void VerificaPermissao(System.String)
+Rota:      http://localhost:2020/api/v1/painelcontrole/usuario/conta
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     84
+Tipo Erro: 1
+Nome Erro: PCT0003
+Título:    Sem Permissão!
+Motivo:    Este usuário Não tem previlégios para executar esta ação!
+Solução :  Contacte o Administrador do sistema.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.VerificaPermissao(String rotina) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 84
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 40
+   em Plus.Api.Controllers.UsuarioController.GetPerfil(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\UsuarioController.cs:linha 94
+
+--------------------------------------------
+ 
+Data Hora: 2/01/2018 12:58:16
+Rotina:    Void Validate()
+Rota:      http://localhost:2020/api/v1/faturamento/condicaopagamento/dicionario/
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    One or more validation errors were detected during model generation:
+
+Conexao.Infra.Context.TModeloRecurso: : EntityType 'TModeloRecurso' has no key defined. Define the key for this EntityType.
+TModeloRecursoes: EntityType: EntitySet 'TModeloRecursoes' is based on type 'TModeloRecurso' that has no keys defined.
+
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   em System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 147
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.CondicaopagamentoController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\CondicaopagamentoController.cs:linha 41
+
+--------------------------------------------
+ 
+Data Hora: 2/01/2018 12:58:35
+Rotina:    Void Validate()
+Rota:      http://localhost:2020/api/v1/integracao/empresa/filiais
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    One or more validation errors were detected during model generation:
+
+Conexao.Infra.Context.TModeloRecurso: : EntityType 'TModeloRecurso' has no key defined. Define the key for this EntityType.
+TModeloRecursoes: EntityType: EntitySet 'TModeloRecursoes' is based on type 'TModeloRecurso' that has no keys defined.
+
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   em System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Controllers.EmpresaController.Filiais(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\EmpresaController.cs:linha 64
+
+--------------------------------------------
+ 
+Data Hora: 2/01/2018 15:35:29
+Rotina:    Void Validate()
+Rota:      http://localhost:2020/api/v1/integracao/empresa/filiais
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    One or more validation errors were detected during model generation:
+
+Conexao.Infra.Context.TModeloRecurso: : EntityType 'TModeloRecurso' has no key defined. Define the key for this EntityType.
+TModeloRecursoes: EntityType: EntitySet 'TModeloRecursoes' is based on type 'TModeloRecurso' that has no keys defined.
+
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   em System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Controllers.EmpresaController.Filiais(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\EmpresaController.cs:linha 64
+
+--------------------------------------------
+ 
+Data Hora: 2/01/2018 15:45:42
+Rotina:    Void Validate()
+Rota:      http://localhost:2020/api/v1/integracao/empresa/filiais
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    One or more validation errors were detected during model generation:
+
+Conexao.Infra.Context.TModeloRecurso: : EntityType 'TModeloRecurso' has no key defined. Define the key for this EntityType.
+TModeloRecursoes: EntityType: EntitySet 'TModeloRecursoes' is based on type 'TModeloRecurso' that has no keys defined.
+
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   em System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Controllers.EmpresaController.Filiais(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\EmpresaController.cs:linha 64
+
+--------------------------------------------
+ 
+Data Hora: 2/01/2018 16:1:28
+Rotina:    Void Validate()
+Rota:      http://localhost:2020/api/v1/integracao/empresa/filiais
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    One or more validation errors were detected during model generation:
+
+Conexao.Infra.Context.TModeloRecurso: : EntityType 'TModeloRecurso' has no key defined. Define the key for this EntityType.
+TModeloRecursoes: EntityType: EntitySet 'TModeloRecursoes' is based on type 'TModeloRecurso' that has no keys defined.
+
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   em System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Controllers.EmpresaController.Filiais(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\EmpresaController.cs:linha 64
+
+--------------------------------------------
+ 
+Data Hora: 2/01/2018 16:6:1
+Rotina:    Void Validate()
+Rota:      http://localhost:2020/api/v1/integracao/empresa/filiais
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    One or more validation errors were detected during model generation:
+
+Conexao.Infra.Context.TModeloRecurso: : EntityType 'TModeloRecurso' has no key defined. Define the key for this EntityType.
+TModeloRecursoes: EntityType: EntitySet 'TModeloRecursoes' is based on type 'TModeloRecurso' that has no keys defined.
+
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   em System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Controllers.EmpresaController.Filiais(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\EmpresaController.cs:linha 64
+
+--------------------------------------------
+ 
+Data Hora: 2/01/2018 16:8:26
+Rotina:    Void Validate()
+Rota:      http://localhost:2020/api/v1/integracao/empresa/filiais
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    One or more validation errors were detected during model generation:
+
+Conexao.Infra.Context.TModeloRecurso: : EntityType 'TModeloRecurso' has no key defined. Define the key for this EntityType.
+TModeloRecursoes: EntityType: EntitySet 'TModeloRecursoes' is based on type 'TModeloRecurso' that has no keys defined.
+
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.Metadata.Edm.EdmModel.Validate()
+   em System.Data.Entity.DbModelBuilder.Build(DbProviderManifest providerManifest, DbProviderInfo providerInfo)
+   em System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   em System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   em System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   em System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   em System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   em System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   em System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login, Boolean usoInterno) na C:\Users\jnunes\Source\Repos\plus_api_painelcontrole\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 112
+   em Plus.Api.Controllers.EmpresaController.Filiais(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\EmpresaController.cs:linha 64
+
+--------------------------------------------

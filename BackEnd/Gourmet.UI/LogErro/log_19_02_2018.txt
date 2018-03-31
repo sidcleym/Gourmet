@@ -1,0 +1,15 @@
+ 
+Data Hora: 19/02/2018 16:39:36
+Rotina:    System.Threading.Tasks.Task`1[System.Net.Http.HttpResponseMessage] Filiais(System.Net.Http.HttpRequestMessage)
+Rota:      http://localhost:2020/api/v1/integracao/empresa/filiais
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\EmpresaController.cs
+Linha:     69
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Usuario e/ou senha incorretos
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.EmpresaController.Filiais(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\EmpresaController.cs:linha 69
+
+--------------------------------------------

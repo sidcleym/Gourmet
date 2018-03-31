@@ -1,0 +1,17 @@
+ 
+Data Hora: 27/03/2018 17:54:58
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/integracao/cliente/terminal?$filter=desativado%20eq%20false&$select=id,intEmpresaId,codigoInterno,intClienteGrupoId,razaoSocial,fantasia,email,site,telefone,celular,tipo,tipoContribuinte,natureza,desativado,dataDesativacao,observacao,foto,fatTabelavendaId,fatTabelavenda,fatVendedorId,fatVendedor,pjCnpj,pjInscricaoEstadual,pjIncricaoMunicipal,pjFundacao,pjSuframa,pfCpf,pfIdentidade,pfNascimento,pfInscricaoProdutorRural,pfSexo,pfProfissao,pfEmpregador,pfRenda,pfAdmissao,pfDependentes,pfPai,pfMae,pfConjuge,pfConjugeCpf,pfConjugeIdentidade,pfConjugeNascimento,pfConjugeProfissao,pfConjugeEmpregador,pfConjugeRenda,pfConjugeAdmissao,creditoLimite,creditoClasse,enderecoCep,enderecoLogradouro,enderecoLogradouroNumero,enderecoBairro,enderecoIntCidadeId,enderecoComplemento,cobrancaComplemento,enderecoUf,cobrancaCep,cobrancaLogradouro,cobrancaLogradouroNumero,cobrancaBairro,cobrancaIntCidadeId,cobrancaUf,logCriacao,logAtualizacao,logPctUsuarioId&$expand=enderecoIntCidade,cobrancaIntCidade
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ClienteController.GetByTerminal(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Integracao\ClienteController.cs:linha 109
+
+--------------------------------------------

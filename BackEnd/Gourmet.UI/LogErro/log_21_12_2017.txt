@@ -1,0 +1,106 @@
+ 
+Data Hora: 21/12/2017 9:40:41
+Rotina:    Int32 SaveChanges()
+Rota:      http://localhost:2020/api/v1/faturamento/pedido/
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_DbUpdateException
+Título:    Arithmetic overflow error converting numeric to data type numeric.
+The statement has been terminated.
+Motivo:    Arithmetic overflow error converting numeric to data type numeric.
+The statement has been terminated.
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.InternalContext.SaveChanges()
+   em System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   em System.Data.Entity.DbContext.SaveChanges()
+   em Infra.Context.UnitofWork.Commit(Object objeto) na C:\Users\jnunes\Desktop\agent\_work\21\s\Infra\Context\UnitofWork.cs:linha 21
+   em Infra.Service.ApplicationServiceBase.Commit(Object objeto) na C:\Users\jnunes\Desktop\agent\_work\21\s\Infra\Service\ApplicationServiceBase.cs:linha 32
+   em Faturamento.ApplicationService.Service.PedidoService.SalvarItensInsercao(PedidoView entidadePostado, PedidoView entidade, String view) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\PedidoService.cs:linha 352
+   em Faturamento.ApplicationService.Service.PedidoService.Salva(PedidoView entidadePostado, DbContextTransaction pTransaction) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\PedidoService.cs:linha 877
+   em Plus.Api.Controllers.Faturamento.PedidoController.Salvar(HttpRequestMessage request, PedidoView entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\PedidovendaController.cs:linha 687
+
+--------------------------------------------
+ 
+Data Hora: 21/12/2017 9:43:29
+Rotina:    Int32 SaveChanges()
+Rota:      http://localhost:2020/api/v1/faturamento/pedido/
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_DbUpdateException
+Título:    Arithmetic overflow error converting numeric to data type numeric.
+The statement has been terminated.
+Motivo:    Arithmetic overflow error converting numeric to data type numeric.
+The statement has been terminated.
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.InternalContext.SaveChanges()
+   em System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   em System.Data.Entity.DbContext.SaveChanges()
+   em Infra.Context.UnitofWork.Commit(Object objeto) na C:\Users\jnunes\Desktop\agent\_work\21\s\Infra\Context\UnitofWork.cs:linha 21
+   em Infra.Service.ApplicationServiceBase.Commit(Object objeto) na C:\Users\jnunes\Desktop\agent\_work\21\s\Infra\Service\ApplicationServiceBase.cs:linha 32
+   em Faturamento.ApplicationService.Service.PedidoService.SalvarItensInsercao(PedidoView entidadePostado, PedidoView entidade, String view) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\PedidoService.cs:linha 352
+   em Faturamento.ApplicationService.Service.PedidoService.Salva(PedidoView entidadePostado, DbContextTransaction pTransaction) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\PedidoService.cs:linha 877
+   em Plus.Api.Controllers.Faturamento.PedidoController.Salvar(HttpRequestMessage request, PedidoView entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\PedidovendaController.cs:linha 687
+
+--------------------------------------------
+ 
+Data Hora: 21/12/2017 9:48:28
+Rotina:    Int32 SaveChanges()
+Rota:      http://localhost:2020/api/v1/faturamento/pedido/
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_DbUpdateException
+Título:    Arithmetic overflow error converting numeric to data type numeric.
+The statement has been terminated.
+Motivo:    Arithmetic overflow error converting numeric to data type numeric.
+The statement has been terminated.
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Internal.InternalContext.SaveChanges()
+   em System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   em System.Data.Entity.DbContext.SaveChanges()
+   em Infra.Context.UnitofWork.Commit(Object objeto) na C:\Users\jnunes\Source\Repos\plus_api_conexao\Infra\Context\UnitofWork.cs:linha 21
+   em Infra.Service.ApplicationServiceBase.Commit(Object objeto) na C:\Users\jnunes\Source\Repos\plus_api_conexao\Infra\Service\ApplicationServiceBase.cs:linha 32
+   em Faturamento.ApplicationService.Service.PedidoService.SalvarItensInsercao(PedidoView entidadePostado, PedidoView entidade, String view) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\PedidoService.cs:linha 352
+   em Faturamento.ApplicationService.Service.PedidoService.Salva(PedidoView entidadePostado, DbContextTransaction pTransaction) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\PedidoService.cs:linha 877
+   em Plus.Api.Controllers.Faturamento.PedidoController.Salvar(HttpRequestMessage request, PedidoView entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\PedidovendaController.cs:linha 687
+
+--------------------------------------------
+ 
+Data Hora: 21/12/2017 10:57:24
+Rotina:    Estoque.Dominio.Modelo.BalancoItem MontaBalancoItem(Estoque.Dominio.Modelo.Saldoestoque, Estoque.Dominio.Modelo.ProdutoImposto, System.DateTime)
+Rota:      http://localhost:2020/api/v1/estoque/balanco/zerar
+FileName:  C:\Users\jnunes\Desktop\agent\_work\8\s\Estoque.ApplicationService\Helpers\BalancoItemHelper.cs
+Linha:     21
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Estoque.ApplicationService.Helpers.BalancoItemHelper.MontaBalancoItem(Saldoestoque saldo, ProdutoImposto imposto, DateTime dataReferencia) na C:\Users\jnunes\Desktop\agent\_work\8\s\Estoque.ApplicationService\Helpers\BalancoItemHelper.cs:linha 21
+   em Estoque.ApplicationService.Service.BalancoService.ZerarEstoque(Nullable`1 dataReferencia) na C:\Users\jnunes\Desktop\agent\_work\8\s\Estoque.ApplicationService\Service\BalancoService.cs:linha 474
+   em Plus.Api.Controllers.Estoque.BalancoController.Zerar(HttpRequestMessage request, Balanco objeto) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\BalancoController.cs:linha 261
+
+--------------------------------------------
+ 
+Data Hora: 21/12/2017 11:2:47
+Rotina:    Estoque.Dominio.Modelo.BalancoItem MontaBalancoItem(Estoque.Dominio.Modelo.Saldoestoque, Estoque.Dominio.Modelo.ProdutoImposto, System.DateTime)
+Rota:      http://localhost:2020/api/v1/estoque/balanco/zerar
+FileName:  C:\Users\jnunes\Desktop\agent\_work\8\s\Estoque.ApplicationService\Helpers\BalancoItemHelper.cs
+Linha:     21
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Estoque.ApplicationService.Helpers.BalancoItemHelper.MontaBalancoItem(Saldoestoque saldo, ProdutoImposto imposto, DateTime dataReferencia) na C:\Users\jnunes\Desktop\agent\_work\8\s\Estoque.ApplicationService\Helpers\BalancoItemHelper.cs:linha 21
+   em Estoque.ApplicationService.Service.BalancoService.ZerarEstoque(Nullable`1 dataReferencia) na C:\Users\jnunes\Desktop\agent\_work\8\s\Estoque.ApplicationService\Service\BalancoService.cs:linha 474
+   em Plus.Api.Controllers.Estoque.BalancoController.Zerar(HttpRequestMessage request, Balanco objeto) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\BalancoController.cs:linha 261
+
+--------------------------------------------

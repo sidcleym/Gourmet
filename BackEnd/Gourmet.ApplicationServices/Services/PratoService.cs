@@ -22,6 +22,12 @@ namespace Gourmet.ApplicationServices.Services
             this._context            = context;
         }
         
+        public void GerenciarVirtuais(Prato prato)
+        {
+            prato.RestauranteId = (prato.Restaurante != null) ? prato.Restaurante.Id : prato.RestauranteId;
+            prato.Restaurante = null;
+
+        }
         public IQueryable Get()
         {
             return this._repositorioPrato.Get() as IQueryable;
@@ -41,6 +47,7 @@ namespace Gourmet.ApplicationServices.Services
         public Prato Salva(Prato PratoPostado)
         {
             PratoPostado.DtInclusao      = DateTime.Now;
+            this.GerenciarVirtuais(PratoPostado);
 
             PratoEscopo.SalvarIsValid(PratoPostado);
             

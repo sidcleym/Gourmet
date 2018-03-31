@@ -1,0 +1,89 @@
+ 
+Data Hora: 9/01/2018 8:38:36
+Rotina:    Void WinIOError(Int32, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2235
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_IOException
+Título:    Não foi possível localizar o arquivo 'D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\RECURSOS\PROGRAMAS\ADSOFT\PDF\29180114937991000148582220000005621360059716-damdfe.pdf'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   em System.IO.File.ReadAllBytes(String path)
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 317
+
+--------------------------------------------
+ 
+Data Hora: 9/01/2018 8:54:18
+Rotina:    System.Threading.Tasks.Task`1[System.Net.Http.HttpResponseMessage] Transmitir(System.Net.Http.HttpRequestMessage, Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2236
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs
+Linha:     318
+Tipo Erro: 1
+Nome Erro: Erro Não Mapeado
+Título:    Mdfe transmitido com sucesso, porém não foi possível gerar o DAMDFE
+Motivo:    
+Solução :  
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 318
+
+--------------------------------------------
+ 
+Data Hora: 9/01/2018 8:57:29
+Rotina:    Faturamento.Dominio.Modelo.Mdfe ProcessaDocumento(DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe, Faturamento.Dominio.Modelo.Mdfe, Int64, System.String ByRef)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2237
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\MdfeHelper.cs
+Linha:     110
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Helpers.MdfeHelper.ProcessaDocumento(RetornoTransmissaoMDFe pRetorno, Mdfe pMdfe, Int64 pLote, String& mensagemErro) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Helpers\MdfeHelper.cs:linha 110
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 953
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 9/01/2018 11:24:23
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2238
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 9/01/2018 11:27:15
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2239
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------

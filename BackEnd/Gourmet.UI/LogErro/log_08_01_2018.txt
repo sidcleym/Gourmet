@@ -1,0 +1,372 @@
+ 
+Data Hora: 8/01/2018 9:54:51
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2207
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 10:7:19
+Rotina:    TResult Execute[TResult](System.Func`1[TResult])
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2207
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   em System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   em Faturamento.ApplicationService.Service.MdfeService.Get(Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 518
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 857
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 10:9:41
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2207
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 10:25:58
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2207
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 10:27:24
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2207
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 10:29:46
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2207
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 10:52:42
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2207
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 10:54:48
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2207
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 11:54:55
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2207
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 11:59:27
+Rotina:    System.Data.Common.DbDataReader ExecuteStoreCommands(System.Data.Entity.Core.EntityClient.EntityCommand, System.Data.CommandBehavior)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2212
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_EntityCommandExecutionException
+Título:    Ocorreu um erro no nível de transporte durante o recebimento de resultados do servidor. (provider: TCP Provider, error: 0 - O tempo limite do semáforo expirou.)
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   em System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__a()
+   em System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClassb.<GetResults>b__9()
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 147
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 307
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 14:16:2
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2212
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 14:17:37
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2214
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 14:28:58
+Rotina:    Void WinIOError(Int32, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2219
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_IOException
+Título:    Não foi possível localizar o arquivo 'D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\RECURSOS\PROGRAMAS\ADSOFT\PDF\29180114937991000148582220000005461744207483-danfe.pdf'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   em System.IO.File.ReadAllBytes(String path)
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 317
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 14:34:24
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2218
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 15:9:23
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2216
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 15:21:23
+Rotina:    Void WinIOError(Int32, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2221
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_IOException
+Título:    Não foi possível localizar o arquivo 'D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\RECURSOS\PROGRAMAS\ADSOFT\PDF\29180114937991000148582220000005481641450584-damdfe.pdf'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   em System.IO.File.ReadAllBytes(String path)
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 317
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 15:30:38
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2223
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 15:30:51
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2223
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 8/01/2018 15:38:54
+Rotina:    DocumentosFiscais.MDFE.Modelos.RetornoTransmissaoMDFe Transmitir(Integracao.Dominio.Modelo.Empresa, Faturamento.Dominio.Modelo.Mdfe, Int64, Boolean)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/2224
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     381
+Tipo Erro: 1
+Nome Erro: FAT0012
+Título:    Falha ao baixar xml do storage!
+Motivo:    Não foi possível encontrar o xml do documento no storage
+Solução :  Não foi possível encontrar o xml do documento no storage
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 381
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 949
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\MdfeService.cs:linha 870
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------

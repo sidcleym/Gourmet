@@ -1,0 +1,165 @@
+ 
+Data Hora: 4/01/2018 8:41:1
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 50
+
+--------------------------------------------
+ 
+Data Hora: 4/01/2018 8:43:28
+Rotina:    Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/5022
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    A cadeia de caracteres de entrada não estava em um formato correto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\29\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 98
+   em Financeiro.ApplicationService.Helpers.ContasareceberHelper.GetModeloJurosSelecionado(Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\34\s\Financeiro.ApplicationService\Helpers\ContasareceberHelper.cs:linha 875
+   em Financeiro.ApplicationService.Service.ContasareceberService.Get(Int32 id, Nullable`1 pDataQuitacao) na C:\Users\jnunes\Desktop\agent\_work\34\s\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 276
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.Get(Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 650
+
+--------------------------------------------
+ 
+Data Hora: 4/01/2018 8:50:5
+Rotina:    Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/5022
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    A cadeia de caracteres de entrada não estava em um formato correto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\29\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 98
+   em Financeiro.ApplicationService.Helpers.ContasareceberHelper.GetModeloJurosSelecionado(Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\34\s\Financeiro.ApplicationService\Helpers\ContasareceberHelper.cs:linha 875
+   em Financeiro.ApplicationService.Service.ContasareceberService.Get(Int32 id, Nullable`1 pDataQuitacao) na C:\Users\jnunes\Desktop\agent\_work\34\s\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 276
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.Get(Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 650
+
+--------------------------------------------
+ 
+Data Hora: 4/01/2018 8:52:29
+Rotina:    Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Rota:      http://localhost:2020/api/v1/financeiro/contasareceber/5022
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    A cadeia de caracteres de entrada não estava em um formato correto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Convert.ToInt32(String value)
+   em PainelControle.ApplicationService.Service.ParametroService.Get[T](String pParametro, Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\29\s\PainelControle.ApplicationService\Service\ParametroService.cs:linha 98
+   em Financeiro.ApplicationService.Helpers.ContasareceberHelper.GetModeloJurosSelecionado(Nullable`1 pIdFilial) na C:\Users\jnunes\Desktop\agent\_work\34\s\Financeiro.ApplicationService\Helpers\ContasareceberHelper.cs:linha 875
+   em Financeiro.ApplicationService.Service.ContasareceberService.Get(Int32 id, Nullable`1 pDataQuitacao) na C:\Users\jnunes\Desktop\agent\_work\34\s\Financeiro.ApplicationService\Service\ContasareceberService.cs:linha 276
+   em Plus.Api.Controllers.Financeiro.ContasareceberController.Get(Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\ContasareceberController.cs:linha 650
+
+--------------------------------------------
+ 
+Data Hora: 4/01/2018 8:58:21
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/painelcontrole/usuariogrupo/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.UsuarioPerfilController.Get(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\UsuarioPerfilController.cs:linha 65
+
+--------------------------------------------
+ 
+Data Hora: 4/01/2018 8:58:22
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/painelcontrole/usuario/?$select=id,login,pctUsuarioPerfilId,intColaboradorId,administrador,desativado,acessoPorHora,acessoHoraInicial,acessoHoraFinal,acessoLimite,acessoUltimo,logCriacao,logAtualizacao,logPctUsuarioId,&$expand=pctUsuarioPerfil,intColaborador
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.UsuarioController.Get(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\UsuarioController.cs:linha 69
+
+--------------------------------------------
+ 
+Data Hora: 4/01/2018 9:4:17
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/financeiro/planofinanceiro/?$select=descricao,codigo,id
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.PlanofinanceiroController.Get(ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Financeiro\PlanofinanceiroController.cs:linha 69
+
+--------------------------------------------
+ 
+Data Hora: 4/01/2018 9:12:5
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/painelcontrole/parametro
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ParametroController.Get() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\ParametroController.cs:linha 65
+
+--------------------------------------------
+ 
+Data Hora: 4/01/2018 9:15:31
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/painelcontrole/parametro
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     106
+Tipo Erro: 1
+Nome Erro: TOK0001
+Título:    Acesso Duplicado!
+Motivo:    Seu login de acesso já se encontra em uso em outro(s) terminal(is)!
+Solução :  Efetue o logout em todos os outros terminais.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 106
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.ParametroController.Get() na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\PainelControle\ParametroController.cs:linha 65
+
+--------------------------------------------

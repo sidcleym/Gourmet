@@ -1,5 +1,6 @@
 ﻿using EmprestimoJogos.Domain.Helpers;
 using Gourmet.ApplicationServices.EscopoValidacao;
+using Gourmet.ApplicationServices.Helpers;
 using Gourmet.ApplicationServices.Services;
 using Gourmet.Domain.Models;
 using Gourmet.Persistence.ConexaoHelper;
@@ -13,12 +14,14 @@ namespace Gourmet.Tests
     public class PratoTeste
     {
         private string  dataCorrente             = Convert.ToString(DateTime.Now);
-        private PratoService  _service;                
-              
+        private PratoService  _service;
+        private RestauranteService _serviceRestaurante;
+
         private void InicializaConexao()
         {
             TConexao.Open();
             _service          = new PratoService(TConexao.unitofWork, TConexao.context);
+            _serviceRestaurante = new RestauranteService(TConexao.unitofWork, TConexao.context);
         }       
         private Prato MontaEntidade()
         {
@@ -26,6 +29,14 @@ namespace Gourmet.Tests
             entidade.Descricao   = PratoHelper.primeiroNome()+" "+ PratoHelper.sobreNome1();
             entidade.Preco = 100;
             entidade.Observacao = "TESTE UNIT. " + DateTime.Now;
+
+            var restaurante = TConexao.context.Restaurante.FirstOrDefault();
+            if (restaurante == null) {
+                restaurante = new Restaurante() {Descricao = RestauranteHelper.GeraDescricao() };
+                restaurante = _serviceRestaurante.Salva(restaurante);
+                
+            }
+            entidade.Restaurante = restaurante;
             return entidade;
         }
 

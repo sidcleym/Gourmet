@@ -1,0 +1,2 @@
+D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\obj\Release\Plus.Api.csprojResolveAssemblyReference.cache
+D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\obj\Release\Plus.Api.csproj.CoreCompileInputs.cache

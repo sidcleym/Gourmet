@@ -1,0 +1,357 @@
+ 
+Data Hora: 22/12/2017 9:21:11
+Rotina:    Void LoginUnico(PainelControle.ApplicationService.IServices.IUsuarioService)
+Rota:      http://localhost:2020/api/v1/estoque/armazem/dicionario/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs
+Linha:     112
+Tipo Erro: 1
+Nome Erro: TOK0002
+Título:    Acesso Expirado!
+Motivo:    Seu login de acesso se encontra expirado!
+Solução :  Efetue o login novamente.
+-----------------TRACE----------------------
+   em Plus.Api.Security.TControleAcesso.LoginUnico(IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 112
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 32
+   em Plus.Api.Controllers.Estoque.ArmazemController.GetDicionario(HttpRequestMessage request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\ArmazemController.cs:linha 41
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 9:23:5
+Rotina:    Microsoft.OData.Core.UriParser.Semantic.ExpandedNavigationSelectItem GenerateExpandItem(Microsoft.OData.Core.UriParser.Syntactic.ExpandTermToken)
+Rota:      http://localhost:2020/api/v1/estoque/saldoestoqueinicial/?$select=id,referenciaData,referenciaNumero,estoqueInicial,custoTotal,responsavelPctUsuarioId&$expand=estArmazem
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    Could not find a property named 'estArmazem' on type 'System.Object'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.GenerateExpandItem(ExpandTermToken tokenIn)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   em System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.Bind(ExpandToken tokenIn)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandSemanticBinder.Bind(IEdmStructuredType elementType, IEdmNavigationSource navigationSource, ExpandToken expandToken, SelectToken selectToken, ODataUriParserConfiguration configuration)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpandImplementation(String select, String expand, ODataUriParserConfiguration configuration, IEdmStructuredType elementType, IEdmNavigationSource navigationSource)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpand()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.GetProjectionLambda()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.Bind(IQueryable queryable)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings, IAssembliesResolver assembliesResolver)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings)
+   em FrameWork.OData.TODataInterceptor`1.Executa(IQueryable`1 Entidade, ODataQueryOptions opts, HttpRequestMessage Request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\OData\TODataInterceptor.cs:linha 76
+   em Plus.Api.Controllers.Estoque.saldoestoqueinicialController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\SaldoEstoqueInicialController.cs:linha 105
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 9:23:22
+Rotina:    Microsoft.OData.Core.UriParser.Semantic.ExpandedNavigationSelectItem GenerateExpandItem(Microsoft.OData.Core.UriParser.Syntactic.ExpandTermToken)
+Rota:      http://localhost:2020/api/v1/estoque/saldoestoqueinicial/?$select=id,referenciaData,referenciaNumero,estoqueInicial,custoTotal,responsavelPctUsuarioId&$expand=estArmazem
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    Could not find a property named 'estArmazem' on type 'System.Object'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.GenerateExpandItem(ExpandTermToken tokenIn)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   em System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.Bind(ExpandToken tokenIn)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandSemanticBinder.Bind(IEdmStructuredType elementType, IEdmNavigationSource navigationSource, ExpandToken expandToken, SelectToken selectToken, ODataUriParserConfiguration configuration)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpandImplementation(String select, String expand, ODataUriParserConfiguration configuration, IEdmStructuredType elementType, IEdmNavigationSource navigationSource)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpand()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.GetProjectionLambda()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.Bind(IQueryable queryable)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings, IAssembliesResolver assembliesResolver)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings)
+   em FrameWork.OData.TODataInterceptor`1.Executa(IQueryable`1 Entidade, ODataQueryOptions opts, HttpRequestMessage Request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\OData\TODataInterceptor.cs:linha 76
+   em Plus.Api.Controllers.Estoque.saldoestoqueinicialController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\SaldoEstoqueInicialController.cs:linha 105
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 9:23:34
+Rotina:    Microsoft.OData.Core.UriParser.Semantic.ExpandedNavigationSelectItem GenerateExpandItem(Microsoft.OData.Core.UriParser.Syntactic.ExpandTermToken)
+Rota:      http://localhost:2020/api/v1/estoque/saldoestoqueinicial/?$select=id,referenciaData,referenciaNumero,estoqueInicial,custoTotal,responsavelPctUsuarioId&$expand=estArmazem
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    Could not find a property named 'estArmazem' on type 'System.Object'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.GenerateExpandItem(ExpandTermToken tokenIn)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   em System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.Bind(ExpandToken tokenIn)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandSemanticBinder.Bind(IEdmStructuredType elementType, IEdmNavigationSource navigationSource, ExpandToken expandToken, SelectToken selectToken, ODataUriParserConfiguration configuration)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpandImplementation(String select, String expand, ODataUriParserConfiguration configuration, IEdmStructuredType elementType, IEdmNavigationSource navigationSource)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpand()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.GetProjectionLambda()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.Bind(IQueryable queryable)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings, IAssembliesResolver assembliesResolver)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings)
+   em FrameWork.OData.TODataInterceptor`1.Executa(IQueryable`1 Entidade, ODataQueryOptions opts, HttpRequestMessage Request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\OData\TODataInterceptor.cs:linha 76
+   em Plus.Api.Controllers.Estoque.saldoestoqueinicialController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\SaldoEstoqueInicialController.cs:linha 105
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 9:23:35
+Rotina:    Microsoft.OData.Core.UriParser.Semantic.ExpandedNavigationSelectItem GenerateExpandItem(Microsoft.OData.Core.UriParser.Syntactic.ExpandTermToken)
+Rota:      http://localhost:2020/api/v1/estoque/saldoestoqueinicial/?$select=id,referenciaData,referenciaNumero,estoqueInicial,custoTotal,responsavelPctUsuarioId&$expand=estArmazem
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    Could not find a property named 'estArmazem' on type 'System.Object'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.GenerateExpandItem(ExpandTermToken tokenIn)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   em System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.Bind(ExpandToken tokenIn)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandSemanticBinder.Bind(IEdmStructuredType elementType, IEdmNavigationSource navigationSource, ExpandToken expandToken, SelectToken selectToken, ODataUriParserConfiguration configuration)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpandImplementation(String select, String expand, ODataUriParserConfiguration configuration, IEdmStructuredType elementType, IEdmNavigationSource navigationSource)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpand()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.GetProjectionLambda()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.Bind(IQueryable queryable)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings, IAssembliesResolver assembliesResolver)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings)
+   em FrameWork.OData.TODataInterceptor`1.Executa(IQueryable`1 Entidade, ODataQueryOptions opts, HttpRequestMessage Request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\OData\TODataInterceptor.cs:linha 76
+   em Plus.Api.Controllers.Estoque.saldoestoqueinicialController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\SaldoEstoqueInicialController.cs:linha 105
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 9:23:36
+Rotina:    Microsoft.OData.Core.UriParser.Semantic.ExpandedNavigationSelectItem GenerateExpandItem(Microsoft.OData.Core.UriParser.Syntactic.ExpandTermToken)
+Rota:      http://localhost:2020/api/v1/estoque/saldoestoqueinicial/?$select=id,referenciaData,referenciaNumero,estoqueInicial,custoTotal,responsavelPctUsuarioId&$expand=estArmazem
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    Could not find a property named 'estArmazem' on type 'System.Object'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.GenerateExpandItem(ExpandTermToken tokenIn)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   em System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.Bind(ExpandToken tokenIn)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandSemanticBinder.Bind(IEdmStructuredType elementType, IEdmNavigationSource navigationSource, ExpandToken expandToken, SelectToken selectToken, ODataUriParserConfiguration configuration)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpandImplementation(String select, String expand, ODataUriParserConfiguration configuration, IEdmStructuredType elementType, IEdmNavigationSource navigationSource)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpand()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.GetProjectionLambda()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.Bind(IQueryable queryable)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings, IAssembliesResolver assembliesResolver)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings)
+   em FrameWork.OData.TODataInterceptor`1.Executa(IQueryable`1 Entidade, ODataQueryOptions opts, HttpRequestMessage Request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\OData\TODataInterceptor.cs:linha 76
+   em Plus.Api.Controllers.Estoque.saldoestoqueinicialController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\SaldoEstoqueInicialController.cs:linha 105
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 9:23:36
+Rotina:    Microsoft.OData.Core.UriParser.Semantic.ExpandedNavigationSelectItem GenerateExpandItem(Microsoft.OData.Core.UriParser.Syntactic.ExpandTermToken)
+Rota:      http://localhost:2020/api/v1/estoque/saldoestoqueinicial/?$select=id,referenciaData,referenciaNumero,estoqueInicial,custoTotal,responsavelPctUsuarioId&$expand=estArmazem
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    Could not find a property named 'estArmazem' on type 'System.Object'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.GenerateExpandItem(ExpandTermToken tokenIn)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   em System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.Bind(ExpandToken tokenIn)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandSemanticBinder.Bind(IEdmStructuredType elementType, IEdmNavigationSource navigationSource, ExpandToken expandToken, SelectToken selectToken, ODataUriParserConfiguration configuration)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpandImplementation(String select, String expand, ODataUriParserConfiguration configuration, IEdmStructuredType elementType, IEdmNavigationSource navigationSource)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpand()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.GetProjectionLambda()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.Bind(IQueryable queryable)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings, IAssembliesResolver assembliesResolver)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings)
+   em FrameWork.OData.TODataInterceptor`1.Executa(IQueryable`1 Entidade, ODataQueryOptions opts, HttpRequestMessage Request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\OData\TODataInterceptor.cs:linha 76
+   em Plus.Api.Controllers.Estoque.saldoestoqueinicialController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\SaldoEstoqueInicialController.cs:linha 105
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 9:23:36
+Rotina:    Microsoft.OData.Core.UriParser.Semantic.ExpandedNavigationSelectItem GenerateExpandItem(Microsoft.OData.Core.UriParser.Syntactic.ExpandTermToken)
+Rota:      http://localhost:2020/api/v1/estoque/saldoestoqueinicial/?$select=id,referenciaData,referenciaNumero,estoqueInicial,custoTotal,responsavelPctUsuarioId&$expand=estArmazem
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_InvalidOperationException
+Título:    Could not find a property named 'estArmazem' on type 'System.Object'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.GenerateExpandItem(ExpandTermToken tokenIn)
+   em System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   em System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   em System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandBinder.Bind(ExpandToken tokenIn)
+   em Microsoft.OData.Core.UriParser.Parsers.SelectExpandSemanticBinder.Bind(IEdmStructuredType elementType, IEdmNavigationSource navigationSource, ExpandToken expandToken, SelectToken selectToken, ODataUriParserConfiguration configuration)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpandImplementation(String select, String expand, ODataUriParserConfiguration configuration, IEdmStructuredType elementType, IEdmNavigationSource navigationSource)
+   em Microsoft.OData.Core.UriParser.ODataQueryOptionParser.ParseSelectAndExpand()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.GetProjectionLambda()
+   em System.Web.OData.Query.Expressions.SelectExpandBinder.Bind(IQueryable queryable)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings, IAssembliesResolver assembliesResolver)
+   em System.Web.OData.Query.SelectExpandQueryOption.ApplyTo(IQueryable queryable, ODataQuerySettings settings)
+   em FrameWork.OData.TODataInterceptor`1.Executa(IQueryable`1 Entidade, ODataQueryOptions opts, HttpRequestMessage Request) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\OData\TODataInterceptor.cs:linha 76
+   em Plus.Api.Controllers.Estoque.saldoestoqueinicialController.Get(HttpRequestMessage request, ODataQueryOptions`1 opts) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Estoque\SaldoEstoqueInicialController.cs:linha 105
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 16:37:47
+Rotina:    MDFe.Classes.Informacoes.MDFeInfMDFe MontaInformacoes(Faturamento.Dominio.Modelo.Mdfe)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/28
+FileName:  C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     217
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaInformacoes(Mdfe mdfe) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 217
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 368
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 945
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 866
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 16:38:46
+Rotina:    MDFe.Classes.Informacoes.MDFeInfMDFe MontaInformacoes(Faturamento.Dominio.Modelo.Mdfe)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/28
+FileName:  C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     217
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaInformacoes(Mdfe mdfe) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 217
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 368
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 945
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 866
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 16:39:30
+Rotina:    MDFe.Classes.Informacoes.MDFeInfMDFe MontaInformacoes(Faturamento.Dominio.Modelo.Mdfe)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/28
+FileName:  C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     217
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaInformacoes(Mdfe mdfe) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 217
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 368
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 945
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 866
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 16:47:16
+Rotina:    MDFe.Classes.Informacoes.MDFeInfMDFe MontaInformacoes(Faturamento.Dominio.Modelo.Mdfe)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/transmitir/28
+FileName:  C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs
+Linha:     217
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.MontaInformacoes(Mdfe mdfe) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 217
+   em Faturamento.ApplicationService.Service.MdfeTransmissaoService.Transmitir(Empresa pEmpresa, Mdfe pMdfe, Int64 numeroLote, Boolean pOffLine) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeTransmissaoService.cs:linha 368
+   em Faturamento.ApplicationService.Service.MdfeService.TransmitirDocumento(Mdfe mdfe, Boolean pOffline) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 945
+   em Faturamento.ApplicationService.Service.MdfeService.Transmitir(Int32 id, Boolean pOffline) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 866
+   em Plus.Api.Controllers.Faturamento.MdfeController.Transmitir(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 309
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 17:36:35
+Rotina:    Void Patch[TPatch,TEntity](TPatch, TEntity, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Recurso\TPatch.cs
+Linha:     45
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em FrameWork.Recurso.TPatch.Patch[TPatch,TEntity](TPatch patch, TEntity entity, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Recurso\TPatch.cs:linha 45
+   em Faturamento.ApplicationService.Service.MdfeService.Salva(Mdfe entidadePostado) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 525
+   em Plus.Api.Controllers.Faturamento.MdfeController.Post(HttpRequestMessage request, Mdfe entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 199
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 17:36:59
+Rotina:    Void Patch[TPatch,TEntity](TPatch, TEntity, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Recurso\TPatch.cs
+Linha:     45
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em FrameWork.Recurso.TPatch.Patch[TPatch,TEntity](TPatch patch, TEntity entity, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Recurso\TPatch.cs:linha 45
+   em Faturamento.ApplicationService.Service.MdfeService.Salva(Mdfe entidadePostado) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 525
+   em Plus.Api.Controllers.Faturamento.MdfeController.Post(HttpRequestMessage request, Mdfe entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 199
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 17:37:23
+Rotina:    Void Patch[TPatch,TEntity](TPatch, TEntity, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Recurso\TPatch.cs
+Linha:     45
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em FrameWork.Recurso.TPatch.Patch[TPatch,TEntity](TPatch patch, TEntity entity, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Recurso\TPatch.cs:linha 45
+   em Faturamento.ApplicationService.Service.MdfeService.Salva(Mdfe entidadePostado) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 525
+   em Plus.Api.Controllers.Faturamento.MdfeController.Post(HttpRequestMessage request, Mdfe entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 199
+
+--------------------------------------------
+ 
+Data Hora: 22/12/2017 17:39:41
+Rotina:    Void Patch[TPatch,TEntity](TPatch, TEntity, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/mdfe/
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Recurso\TPatch.cs
+Linha:     45
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em FrameWork.Recurso.TPatch.Patch[TPatch,TEntity](TPatch patch, TEntity entity, String view) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\Framework\Recurso\TPatch.cs:linha 45
+   em Faturamento.ApplicationService.Service.MdfeService.Salva(Mdfe entidadePostado) na C:\Users\jnunes\Desktop\agent\_work\35\s\Faturamento.ApplicationService\Service\MdfeService.cs:linha 525
+   em Plus.Api.Controllers.Faturamento.MdfeController.Post(HttpRequestMessage request, Mdfe entidade) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\MdfeController.cs:linha 199
+
+--------------------------------------------

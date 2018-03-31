@@ -1,0 +1,137 @@
+ 
+Data Hora: 12/12/2017 14:56:10
+Rotina:    System.Net.Http.StreamContent DownloadXml(Int32, System.String ByRef)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/xml/2
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs
+Linha:     2557
+Tipo Erro: 1
+Nome Erro: GEN0001
+Título:    Informação inexistente!
+Motivo:    Esta informação não se encontra mais na base de dados
+Solução :  Contacte o suporte
+-----------------TRACE----------------------
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.DownloadXml(Int32 idDocumento, String& fileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2557
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadXml(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 631
+
+--------------------------------------------
+ 
+Data Hora: 12/12/2017 15:17:25
+Rotina:    System.Net.Http.HttpResponseMessage DownloadXml(System.Net.Http.HttpRequestMessage, Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/xml/5571
+FileName:  D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs
+Linha:     637
+Tipo Erro: 1
+Nome Erro: ERRO_NullReferenceException
+Título:    Referência de objeto não definida para uma instância de um objeto.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadXml(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 637
+
+--------------------------------------------
+ 
+Data Hora: 12/12/2017 15:49:12
+Rotina:    Void ThrowCryptographicException(Int32)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/danfe/5571
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    Acesso negado.
+
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Security.Cryptography.CryptographicException.ThrowCryptographicException(Int32 hr)
+   em System.Security.Cryptography.X509Certificates.X509Utils._LoadCertFromBlob(Byte[] rawData, IntPtr password, UInt32 dwFlags, Boolean persistKeySet, SafeCertContextHandle& pCertCtx)
+   em System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromBlob(Byte[] rawData, Object password, X509KeyStorageFlags keyStorageFlags)
+   em System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(Byte[] rawData, String password, X509KeyStorageFlags keyStorageFlags)
+   em NFe.Utils.Assinatura.CertificadoDigital.ObterDeBytes(Byte[] arquivo, String senha) na D:\DESENVOLVIMENTO\Projetos\PLUS\Zeus.Net.NFe.NFCe-master\NFe.Utils\Assinatura\CertificadoDigital.cs:linha 148
+   em NFe.Utils.Assinatura.CertificadoDigital.ObterDadosCertificado() na D:\DESENVOLVIMENTO\Projetos\PLUS\Zeus.Net.NFe.NFCe-master\NFe.Utils\Assinatura\CertificadoDigital.cs:linha 179
+   em NFe.Utils.Assinatura.CertificadoDigital.ObterCertificado() na D:\DESENVOLVIMENTO\Projetos\PLUS\Zeus.Net.NFe.NFCe-master\NFe.Utils\Assinatura\CertificadoDigital.cs:linha 166
+   em NFe.Servicos.ServicosNFe..ctor(ConfiguracaoServico cFgServico) na D:\DESENVOLVIMENTO\Projetos\PLUS\Zeus.Net.NFe.NFCe-master\NFe.Servicos\ServicosNFe.cs:linha 98
+   em DocumentosFiscais.NFE_NFCE.NFeTransmissaoService..ctor(NFeModelo NfeModelo, Int16 pVersaoServico) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\DocumentosFiscais\NFE_NFCE\NFeTransmissaoService.cs:linha 166
+   em Faturamento.ApplicationService.Service.NFeService.GerarDanfe(Empresa pEmpresa, Cliente pCliente, Documentosaida pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 548
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GerarDanfe(Int32 idDocumento, String& fileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2608
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadDanfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 596
+
+--------------------------------------------
+ 
+Data Hora: 12/12/2017 16:51:41
+Rotina:    PainelControle.Dominio.Modelo.Usuario Get(System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/danfe/5571
+FileName:  C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs
+Linha:     130
+Tipo Erro: 1
+Nome Erro: PCT0001
+Título:    Usuário inexistente!
+Motivo:    Este usuário Não existe!
+Solução :  Efetue o login Novamente.
+-----------------TRACE----------------------
+   em PainelControle.ApplicationService.Service.UsuarioService.Get(String login) na C:\Users\jnunes\Desktop\agent\_work\20\s\PainelControle.ApplicationService\Service\UsuarioService.cs:linha 130
+   em Plus.Api.Security.TControleAcesso.IdentificaUsuario(IPrincipal user, IUsuarioService usuarioService) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 66
+   em Plus.Api.Security.TControleAcesso.Executa(IPrincipal user, String rotina, String dominio, Boolean verificaParametro, Boolean loginUnico, Boolean verificaPermissao) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Security\ControleAcesso.cs:linha 27
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadDanfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 593
+
+--------------------------------------------
+ 
+Data Hora: 12/12/2017 15:57:6
+Rotina:    TResult Execute[TResult](System.Func`1[TResult])
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/danfe/5571
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: 
+Título:    An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   em System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   em System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   em System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   em System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   em System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.Get(Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 841
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GerarDanfe(Int32 idDocumento, String& fileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2583
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadDanfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 596
+
+--------------------------------------------
+ 
+Data Hora: 12/12/2017 16:7:56
+Rotina:    Void WinIOError(Int32, System.String)
+Rota:      http://localhost:2020/api/v1/faturamento/documentosaida/download/danfe/5571
+FileName:  
+Linha:     0
+Tipo Erro: 1
+Nome Erro: ERRO_IOException
+Título:    Não foi possível localizar o arquivo 'D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\RECURSOS\PROGRAMAS\ADSOFT\XML\29171114937991000148650550000000891000000898-danfe.pdf'.
+Motivo:    Erro de sistema
+Solução :  Contate o Suporte!
+-----------------TRACE----------------------
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   em System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   em System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   em System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   em System.Xml.XmlTextReaderImpl..ctor(String uriStr, XmlReaderSettings settings, XmlParserContext context, XmlResolver uriResolver)
+   em System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   em System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   em System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   em System.Xml.Linq.XDocument.Load(String uri)
+   em NFe.Utils.FuncoesXml.ObterNodeDeArquivoXml(String nomeDoNode, String arquivoXml) na D:\DESENVOLVIMENTO\Projetos\PLUS\Zeus.Net.NFe.NFCe-master\NFe.Utils\FuncoesXml.cs:linha 145
+   em ExtNfeProc.CarregarDeArquivoXml(nfeProc nfeProc, String arquivoXml) na D:\DESENVOLVIMENTO\Projetos\PLUS\Zeus.Net.NFe.NFCe-master\NFe.Utils\NFe\ExtNfeProc.cs:linha 47
+   em DocumentosFiscais.NFE_NFCE.NFeTransmissaoService.GeraDanfe(String fileNameXml, String chave, ModeloDocumento modelo) na D:\DESENVOLVIMENTO\Projetos\PLUS\Framework\DocumentosFiscais\NFE_NFCE\NFeTransmissaoService.cs:linha 630
+   em Faturamento.ApplicationService.Service.NFeService.GerarDanfe(Empresa pEmpresa, Cliente pCliente, Documentosaida pDocumento) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\NFeService.cs:linha 551
+   em Faturamento.ApplicationService.Service.DocumentosaidaService.GerarDanfe(Int32 idDocumento, String& fileName) na D:\DESENVOLVIMENTO\Projetos\PLUS\MODULOS\Faturamento\Faturamento.ApplicationService\Service\DocumentosaidaService.cs:linha 2606
+   em Plus.Api.Controllers.Faturamento.DocumentosaidaController.DownloadDanfe(HttpRequestMessage request, Int32 id) na D:\DESENVOLVIMENTO\Projetos\PLUS\Api\Plus.Api\Controllers\Faturamento\DocumentosaidaController.cs:linha 596
+
+--------------------------------------------
