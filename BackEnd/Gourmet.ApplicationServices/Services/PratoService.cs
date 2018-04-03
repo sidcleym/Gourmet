@@ -30,12 +30,12 @@ namespace Gourmet.ApplicationServices.Services
         }
         public IQueryable Get()
         {
-            return this._repositorioPrato.Get() as IQueryable;
+            return this._repositorioPrato.Get().Include("Restaurante") as IQueryable;
         }
         
         public Prato Get(int id)
         {
-            var Prato   = _repositorioPrato.Get()
+            var Prato   = _repositorioPrato.Get().Include("Restaurante")
                 .Where(x => x.Id == id).First();
            
             if (Prato == null)
@@ -61,22 +61,25 @@ namespace Gourmet.ApplicationServices.Services
 
       
 
-        public Prato Atualiza(int id, Prato PratoPostado )
+        public Prato Atualiza(int id, Prato pratoPostado )
         {
 
-            Prato Prato = _repositorioPrato.Get().AsNoTracking().Where(x=> x.Id == id).FirstOrDefault();
-            if (Prato == null)
+            var prato = _repositorioPrato.Get().AsNoTracking().Where(x=> x.Id == id).FirstOrDefault();
+
+            if (prato == null)
                 throw new Exception("Prato inexistente");
 
-            PratoPostado.Id = id;
-            PratoPostado.DtInclusao = Prato.DtInclusao;
-            PratoPostado.DtAtualizacao = DateTime.Now;
+            GerenciarVirtuais(pratoPostado);
 
-            PratoEscopo.AtualizarIsValid(PratoPostado);
+            pratoPostado.Id = id;            
+            pratoPostado.DtInclusao = prato.DtInclusao;
+            pratoPostado.DtAtualizacao = DateTime.Now;
 
-            _repositorioPrato.Update(PratoPostado);
+            PratoEscopo.AtualizarIsValid(pratoPostado);
+
+            _repositorioPrato.Update(pratoPostado);
             if (Commit())
-                return Prato;
+                return prato;
 
             return null;
         }

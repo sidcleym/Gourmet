@@ -48,9 +48,7 @@ namespace Gourmet.UI
             app.UseWebApi(config);
             ConfigureDependencyInjection(config, container);
             ConfigureJsonSerialization(config);
-
-            SwaggerConfig.Register(config);
-            
+            SwaggerConfig.Register(config);            
         }
 
         

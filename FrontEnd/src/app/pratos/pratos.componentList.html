@@ -1,0 +1,65 @@
+<!-- INíCIO do CONTEÚDO -->
+      <section class="content-header">
+        <h1>
+          Todos os Pratos
+        </h1>
+
+         <!-- Barra de busca -->
+        <div class="row">
+          <div class="col-xs-12">
+            <form>
+              <div class="form-group">
+                <input name="descricao" [(ngModel)]="filter.descricao" type="text" class="form-control" placeholder="Informe o prato que deseja procurar">
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+
+         <a [routerLink]="['/pratos/cadastrar']" class="btn btn-xs btn-success">
+          <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+          Cadastrar prato
+        </a>
+      </section>
+
+
+      <section class="content">
+
+          <div class="col-xs-12">
+  <table class="table table-bordered table-striped" >
+    <thead>
+      <tr>
+        <th>Ações</th><th>Restaurante</th><th>Prato</th><th>Preco</th>
+      </tr>
+    </thead>
+    <tbody>
+     
+      <tr *ngFor="let prato of pratos | pratofilter:filter">
+         <td class="table-actions" width="110px">         
+          <a  [routerLink]="['/pratos/editar', prato.id]"  ><i class="fa fa-pencil" style="margin-right:10px;font-size:20px;color:cornflowerblue"></i> </a>
+          <a (click)="excluir(prato)"  ><i class="fa fa-trash" style="margin-right:10px;font-size:20px;color:red;cursor:pointer"></i> </a>
+        </td>
+        
+        <td>
+          {{prato.restaurante.descricao}}
+        </td>
+        <td>
+          
+          {{prato.descricao}}
+        </td>
+       <td>
+          {{prato.preco}}
+        </td>
+       
+
+      </tr>
+      
+    </tbody>
+
+  </table>
+</div>
+
+      </section>
+
+      <!-- FIM  do CONTEÚDO -->

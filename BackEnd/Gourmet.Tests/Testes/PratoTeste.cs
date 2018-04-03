@@ -95,6 +95,8 @@ namespace Gourmet.Tests
 
             entidade.Descricao     = "TEST UNITARIO "+DateTime.Now;
 
+            TConexao.Dispose();
+            InicializaConexao();
             var entidadeAtualizada = _service.Atualiza(entidade.Id, entidade);
 
             TConexao.Dispose();

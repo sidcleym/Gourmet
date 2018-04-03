@@ -1,0 +1,57 @@
+<!-- INíCIO do CONTEÚDO -->
+      <section class="content-header">
+        <h1>
+          Todos os Restaurantes
+          <a  class="search-link pull-right"><i class="fa fa-search"></i></a>
+        </h1>
+
+        <!-- Barra de busca -->
+        <div class="row">
+          <div class="col-xs-12">
+            <form>
+              <div class="form-group">
+                <input name="descricao" [(ngModel)]="filter.descricao" type="text" class="form-control" placeholder="Informe o restaurante que deseja procurar">
+              </div>
+              {{filter.descricao}}
+            </form>
+
+          </div>
+        </div>
+
+        <a [routerLink]="['/restaurantes/cadastrar']" class="btn btn-xs btn-success">
+          <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+          Cadastrar Restaurante
+        </a>
+      </section>
+
+
+      <section class="content">
+
+          <div class="col-xs-12">
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Ações</th><th>Restaurantes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let restaurante of restaurantes | restaurantefilter:filter">
+         <td class="table-actions" style="padding-left:20px" width="100px">
+          <a [routerLink]="['/restaurantes/editar', restaurante.id]" ><i class="fa fa-pencil" style="margin-right:10px;font-size:20px;color:cornflowerblue"></i> </a>
+          <a (click)="excluir(restaurante)" ><i class="fa fa-trash" style="margin-right:10px;font-size:20px;color:red;cursor:pointer"></i> </a>
+        </td>
+        
+        <td>
+          {{restaurante.descricao}}
+        </td>
+       
+
+      </tr>
+    </tbody>
+
+  </table>
+</div>
+
+      </section>
+
+      <!-- FIM  do CONTEÚDO -->

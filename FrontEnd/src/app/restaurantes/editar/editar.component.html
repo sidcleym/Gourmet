@@ -1,0 +1,17 @@
+<h1>Editar restaurante</h1>
+<form  novalidate [formGroup]="restauranteForm">
+<div class="form-group" >
+  
+  
+<label for="descricao">Restaurante:</label>
+  <input  class="form-control"  
+    placeholder="Informe a descrição"  formControlName="descricao" value="{{restaurante?.descricao}}"
+    required
+  />
+ 
+  <div class="form-group text-center">
+    <input (click)="atualizar(restauranteForm.value)" type="button" class="btn btn-success" value="Cadastrar" />
+    <input [routerLink]="['/restaurantes']" type="button" class="btn btn-danger" value="Cancelar" />
+  </div>
+</div>
+</form>

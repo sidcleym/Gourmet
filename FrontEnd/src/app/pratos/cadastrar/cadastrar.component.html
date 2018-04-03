@@ -1,0 +1,28 @@
+<h1>Cadastrar pratos</h1>
+
+
+<form [formGroup]="pratoForm">
+<div class="form-group" >
+  
+  <label for="descricao">Prato:</label>
+  <input  class="form-control" formControlName="descricao" 
+    placeholder="Informe a descrição do prato" 
+    required
+  />
+  <label for="descricao">Restaurante:</label>
+  <select class="form-control"  formControlName="restauranteId" >
+    <option *ngFor="let restaurante of restaurantes" [ngValue]="restaurante.id"> {{restaurante.descricao}} </option>
+  </select>
+  <label for="preco">Preço: R$</label>
+   <input  class="form-control" formControlName="preco" 
+    placeholder="Informe a preço do prato" 
+    required
+  />
+
+  <div class="form-group text-center">
+    <input (click)="salvar(pratoForm.value)" type="button" class="btn btn-success" value="Cadastrar" />
+    
+    <input [routerLink]="['/pratos']" type="button" class="btn btn-danger" value="Cancelar" />
+  </div>
+</div>
+</form>

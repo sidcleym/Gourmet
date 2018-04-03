@@ -1,0 +1,31 @@
+<h1>Editar prato</h1>
+
+
+<form  novalidate>
+<div class="form-group" >
+  
+  <label for="descricao">Prato:</label>
+  <input  class="form-control" name="descricao" [(ngModel)]="prato.descricao" 
+      placeholder="Informe a descrição do prato" 
+    required
+  />
+  <label for="descricao">Restaurante:</label>
+  
+  <select class="form-control"  name="restauranteId"  [(ngModel)]="prato.restauranteId" >
+
+    <option *ngFor="let restaurante of restaurantes"  [ngValue]="restaurante.id"  [selected]="restaurante.id==prato?.restauranteId"> {{restaurante.descricao}} </option>
+  </select>
+  
+  <label for="preco">Preço: R$</label>
+   <input  class="form-control" name="preco" [ngModel]="prato.preco"
+    placeholder="Informe a preço do prato" 
+    required
+  />
+ 
+  <div class="form-group text-center">
+    <input (click)="atualizar(prato)" type="button" class="btn btn-success" value="Cadastrar" />
+    
+    <input [routerLink]="['/pratos']" type="button" class="btn btn-danger" value="Cancelar" />
+  </div>
+</div>
+</form>

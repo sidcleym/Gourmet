@@ -18,7 +18,7 @@ namespace Gourmet.ApplicationServices.EscopoValidacao
 
 
             var retorno = AssertionConcern.IsSatisfiedBy(			
-                AssertionConcern.AssertLength(prato.Descricao,6,100,"O Email deve conter até 100 caracteres."),
+                AssertionConcern.AssertLength(prato.Descricao,1,100,"A descrição deve conter até 100 caracteres."),
                 AssertionConcern.AssertIsGreaterThan(prato.Preco,0, "O Preço deverá ser informado.")
                 ,AssertionConcern.AssertIsTrue(prato.RestauranteId >0,"O restaurante deverá ser informado.","Preenchimento incorreto!")
             );
@@ -40,7 +40,7 @@ namespace Gourmet.ApplicationServices.EscopoValidacao
             }
 
             var retorno = AssertionConcern.IsSatisfiedBy(
-                AssertionConcern.AssertLength(prato.Descricao, 6, 100, "O Email deve conter até 100 caracteres"),
+                AssertionConcern.AssertLength(prato.Descricao, 1, 100, "A descrição deve conter até 100 caracteres"),
                 AssertionConcern.AssertIsGreaterThan(prato.Preco, 0, "O Preço deverá ser informado.")
                 ,AssertionConcern.AssertIsTrue(prato.RestauranteId > 0, "O restaurante deverá ser informado.", "Preenchimento incorreto!")          
              );

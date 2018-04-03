@@ -268,7 +268,8 @@
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Attributes\DeflateCompressionAttribute.cs" />
-    <Compile Include="Controllers\RestauranteController.cs" />
+    <Compile Include="Controllers\PratosController.cs" />
+    <Compile Include="Controllers\RestaurantesController.cs" />
     <Compile Include="Controllers\ControllerBase.cs" />
     <Compile Include="ErrorHandler\AiHandleErrorAttribute.cs" />
     <Compile Include="FilterConfig.cs" />
@@ -279,6 +280,7 @@
     <Compile Include="Helpers\DataContextHelper.cs" />
     <Compile Include="Helpers\DominioEventosContainer.cs" />
     <Compile Include="Helpers\LogErrorHelper.cs" />
+    <Compile Include="Helpers\Resposta.cs" />
     <Compile Include="Helpers\UnityResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
