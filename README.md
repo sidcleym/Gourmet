@@ -1,22 +1,31 @@
 # Gourmet
-#BackEnd
 Sistema de cadastro de restaurantes e seus pratos
+
+#BackEnd
 
 Package utilizados:
 
-WebAPi;
-Entity Framework;
-Unit;
-Owin;
-MSTest;
-Swagger;
+- WebAPi;
+
+- Entity Framework;
+
+- Unit;
+
+- Owin;
+
+- MSTest;
+
+- Swagger;
 
 Técnicas e Padrões de projeto utilizados;
 
-Repository (genérico);
-Service;
-TDD;
-Code First.
+- Repository (genérico);
+
+- Service;
+
+- TDD;
+
+- Code First.
 
 Instruções para compilar a solução:
 
@@ -31,13 +40,17 @@ A aplicação rodará na porta http://localhost:6060.
 
 Projetos na Solução :
 
-Gourmet.ApplicationServices : Services e escopos de validações
-Gourmet.Persistence: Infraestrutura de conexão com banco
-Gourmet.Domain: Aplicação em Class Library com Modelos,  e interfaces de repositorios, services e Escopo de validação;
-Gourmet.Tests: Aplicação de Testes de unidade;
-Gourmet.UI: Interface web (Controlers).
+- Gourmet.ApplicationServices : Services e escopos de validações
+
+- Gourmet.Persistence: Infraestrutura de conexão com banco
+
+- Gourmet.Domain: Aplicação em Class Library com Modelos,  e interfaces de repositorios, services e Escopo de validação;
+
+- Gourmet.Tests: Aplicação de Testes de unidade;
+
+- Gourmet.UI: Interface web (Controlers).
 
 #FrontEnd
 
-Angular 4
-Typescript
+- Angular 4
+- Typescript
