@@ -1,0 +1,26 @@
+# Build and Release Folders
+bin/
+BackEnd/Gourmet.ApplicationServices/bin/
+BackEnd/Gourmet.Domain/bin/
+BackEnd/Gourmet.Persistence/bin/
+BackEnd/Gourmet.Shared/bin/
+BackEnd/Gourmet.Tests/bin/
+BackEnd/bin/debug/
+BackEnd/packages
+bin-release/
+[Oo]bj/ # FlashDevelop obj
+[Bb]in/ # FlashDevelop bin
+
+# Other files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+*.dll
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.

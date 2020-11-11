@@ -14,5 +14,8 @@ namespace Gourmet.Domain.Models
         public int RestauranteId { get; set; }
         public virtual Restaurante Restaurante { get; set; }
 
+        [Timestamp]
+        public byte[] RowVersion { get; set; }
+
     }
 }

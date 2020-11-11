@@ -17,5 +17,8 @@ namespace Gourmet.Domain.Models
         }
         [NotMapped]
         public string SenhaConfirmacao { get; set; }
+
+        [Timestamp]
+        public byte[] RowVersion { get; set; }
     }
 }

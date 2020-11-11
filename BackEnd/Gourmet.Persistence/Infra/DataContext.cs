@@ -1,6 +1,7 @@
 ﻿
 using Gourmet.Domain.IRepository;
 using Gourmet.Domain.Models;
+using Gourmet.Persistence.Migrations;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
@@ -11,7 +12,10 @@ namespace Gourmet.Persistence.Infra
         public DataContext() : base("Gourmet")
         {
             Configuration.LazyLoadingEnabled = false;
-            Configuration.ProxyCreationEnabled = false;            
+            Configuration.ProxyCreationEnabled = false;
+
+            Database.SetInitializer<DataContext>(new CreateDatabaseIfNotExists <DataContext>());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DataContext, Configuration>());
         }
 
         public DbSet<Usuario> Usuario { get; set; }
@@ -21,11 +25,13 @@ namespace Gourmet.Persistence.Infra
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
             modelBuilder.Properties<string>().Configure(p=> p.HasColumnType("varchar"));
             modelBuilder.Properties<string>().Configure(p => p.HasMaxLength(100));
 
+            //modelBuilder.Configurations.Add(new Configuration());
             modelBuilder.Configurations.Add(new UsuarioConfigurations());
            // Database.SetInitializer < DataContext > (new DropCreateDatabaseIfModelChanges<DataContext>());
 
